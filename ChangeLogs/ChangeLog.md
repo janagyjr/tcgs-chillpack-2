@@ -1,0 +1,145 @@
+# TCG's Chill Pack Part Deux  
+## ChangeLog Runs from Oldest (at bottom) to newest (near top)  
+
+### Alpha Release 0.0.1  
+Mods Added:  
+- Actually Additions
+- Advanced Chimneys
+- Advanced Generators
+- AE2 Stuff
+- Aether Legacy
+- AgriCraft
+- Angel Ring to Bauble
+- Applied Energistics 2
+- ArchitectureCraft
+- Armor1997 Core
+- Aroma1997's Dimensional World
+- Baubles
+- BdLib
+- Bed Bugs
+- Better Builder's Wands
+- Better Storage Too
+- BetterFPS
+- BiblioCraft
+- Biome's O'Plenty
+- Botania
+- BotaniaVisualizer
+- Chameleon
+- Chicken Chunks 1.8+
+- Chickens
+- Chisel
+- Chisels & Bits
+- CodeChicken Core 1.8+
+- CodeChicken Lib 1.8+
+- CoFH Core
+- CompactStorage
+- CompatLayer
+- ConnectedTexturesMod
+- Cooking for Blockheads
+- CoroUtil
+- Crafting Tweaks
+- Custom Main Menu
+- Daedalus' Labyrinth
+- DecoCraft2
+- DiscordIntegration
+- Ender Compass
+- Ender IO
+- Ender Ore
+- Ender Storage 1.8+
+- Ender Zoo
+- EnderCore
+- EnderTanks
+- Energy Converters
+- Extra Golems
+- Extra Rails
+- Extra Utilities
+- ExtraPlanets
+- Extreme Reactors
+- Fast Leaf Decay
+- Forestry
+- Forge MultiPart CBE
+- Forge Endertech
+- FTB Utilities
+- FTBLib
+- Galacticraft Planets
+- Galacticraft Core
+- Guide API
+- Hatchery
+- Headcrumbs
+- Hopper Ducts
+- Immersive Engineering
+- Immersive Petroleum
+- Industrial Craft
+- Industrial Expansion [TE Addon]
+- Industrial Wires
+- InfinityLib
+- Inventory Tweaks
+- Iron Backpacks
+- Iron Chests
+- JourneyMap
+- Just Enough Forestry Bees (JEFB)
+- Just Enough Items (JEI)
+- MalisisCore
+- MalisisDoors
+- Mantle
+- McJtyLib
+- MCMultiPart
+- Mekanism
+- Mekanism Generators
+- Mekanism Tools
+- MicdoodleCore
+- Minefactory Reloaded
+- MineTweaker RecipeMaker
+- Modular Forcefield System
+- Moo Fluids
+- More Cickens
+- Morpheus
+- Mouse Tweaks
+- MrCrayfish's Furniture Mod
+- Mystical Agradditions
+- Mystical Agriculture
+- Mystical Agriculture - MFR Compatibility
+- Natura
+- NetherEx
+- Not Enough Wands
+- p455w0rd's Library
+- Pam's HarvestCraft
+- Platforms
+- PlusTIC
+- Progressive Automation
+- ProjectE
+- Quantum Storage
+- Railcraft
+- Railcraft Cosmetic Additions
+- Ranchable Fluid Cows
+- Reborn Core
+- Render Player API
+- RFTools
+- RFTools Control
+- RFTools Dimensions
+- SG Craft
+- Shadowfacts' Forgelin
+- ShadowMC
+- ShetiPhianCore
+- SodiumCraft
+- Storage Drawers
+- Storage Drawers Extras
+- TATW
+- Thermal Dynamics
+- Thermal Expansion
+- Thermal Foundation
+- Thermal Smeltery
+- Tinkers Construct
+- Tinkers' Tool Leveling
+- Tumbleweed
+- Uncomplication
+- Uranium Big Reactor
+- VeinMiner
+- ViesCraft - Airships!
+- Waila Harvestablity
+- WAILA Plugins
+- Wawla - What Are We Looking At
+- Waystones
+- Weather, Storms, & Tornadoes
+- Wireless Crafting Terminal
+- ZeroCore
