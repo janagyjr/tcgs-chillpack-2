@@ -2,6 +2,7 @@
 ## ChangeLog Runs from Oldest (at bottom) to newest (near top)  
 
 ### Alpha Release 0.0.1  
+### Initial Release  
 Mods Added:  
 - Actually Additions
 - Advanced Chimneys
