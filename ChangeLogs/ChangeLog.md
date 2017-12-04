@@ -1,6 +1,87 @@
 # TCG's Chill Pack Part Deux  
 ## ChangeLog Runs from Oldest (at bottom) to newest (near top)  
 
+### Beta Release 0.1.0  
+Mods Added:  
+- Recurrent Complex  
+- LootBags  
+- Weapon Case Loot  
+- Drawers & Bits  
+- Draconic Evolution 
+- Sleeping Bag  
+- Random Things
+- Resource Loader  
+- Tomb Many Graves  
+- Simply Jetpacks 2  
+- Simply Conveyors & More  
+- Mob Grinding Utils  
+- Roguelike Dungeons    
+- DungeonDQ  
+- TickDynamic (server)  
+- DiscordIntegration (server)  
+- TickProfiler (server)  
+- LootTweaker  
+
+Mods Removed:  
+- Quantum Storage  
+- Fast Leaf Decay  (functionality replaced by Random Things)
+- RebornCore  
+
+Mods Updated:
+- Extra Utilities  
+- Extra Planets  
+- Journey Map  
+- McJtyLib  
+- MineFactory Reloaded  
+- RFTools  
+- RFControls  
+- Shawodfacts' Forgelin  
+- ViesCraft - Airships!
+- Wireless Crafting Terminal  
+
+Config Changes:  
+- Adjusted Advanced Chimneys, reduced the render distance to 16 (from 128), reduced the updates from 4 per second to 2 per second  
+- Adjusted Aether Legacy to include Christmas content, adjusted dimension ID to avoid Galacticraft conflicts, disabled random trivia  
+- Disabled particles for Agricraft sprinklers, enabled only mature plants to drop seeds, decreased water channel capacity by half from default, enabled flowing water to fill tanks  
+- Changed energy unit from AE to RF in Applied Energistics, made MANUAL_SEARCH the default, maxed out the buttons, doubled the items needed for matter balls and singulairities, disabled creative items  
+- Disabled version checking in Aroma's, adjusted message sent upon entering mining dimension
+- Made Biome's O'Plenty the default world type
+- Disabled particles in CoFH Core  
+- Enabled Thermal Dynamic covers to be shown in JEI  
+- Increased the max amount of levels for anvil recipes in EnderCore to a ridiculous level, enabled better achievements  
+- Decreased conduit scale in Ender IO from 0.6 to 0.5  
+- Registered Charcoal and coal for smelting recipe in Extreme Reactors, disabled creative multiblock parts, enabled craftable graphite bars, disabled yellorium2uranium smelt recipe, disabled uranium ingot requirements for crafting, reinforced or hardened glass now needed for reactor glass, max turbine size doubled to 32, ore gen enabled for nether  
+- Set Forestry gamemode to hard, gamemode definition recreation now forced, disabled particle effects  
+- Disabled rocket launches from the Aether and Mining Dimension, respawn set to overworld if you die on a Galacticraft dimension, disabled spaceship particles, increased oil gen to 2, enabled oil gen in mining dimension, space station invites enabled, boss health modifier increased to 2.0, enabled harder difficulty, increased rocket fuel factor to 5 (moo fluids is OP, this balances that), disabled update check, enabled space race manager, max astrominers set to 6, disabled energy loss conversion  
+- Disabled chicken flapping in pens, disabled throw to hatch eggs  
+- Centered JEI search bar  
+- Enabled bright Rednet colors in Minefactory Reloaded, forced player to be online to enable chunk loading, increased the power multiplier for using the spawner in exact mode, breeder threshhold lowered to 25  
+- Set covalence loss in ProjectE to 0.5, enabled crafting of Tome of Knowledge  
+- Disabled Railcraft Creosote in favor of Immersive Engineering, enabled oregen for all ores in Mining Dimension  
+- Increased Dimlet Workbench max RF storage in RFTools Dimensions, increased brutal mobs factor to 6.0, dimension builder now requires correct owner data before being usable  
+- Enabled metadata in WAILA  
+- Adjusted cloud layer heights in Weather, Storms, & Tornadoes, enabled lightening to start fires, set tornadoes to only grab players  
+- Enabled multi-block insertion on drawer controller for bits and drawers  
+- Set mob spawners to only be picked up by wooden transporter  
+- Limited loadable chunks in Chicken Chunks by players to 2500, players will have to be logged in for chunks to be loaded, chunks set to timeout 30 minutes after logging out, enabled OP-interact for server admin reasons, reload-dimensions set to false  
+- Chicken spawn types adjusted (breedable or craftable chickens are disabled from natural spawns)  
+- Enabled inventory check for EnderCompass  
+- Disabled vanilla Ender Chests in EnderStorage (uncraftable, unplaceable), increased storage to 6x9  
+- ExtraPlanets set to allow custom bosses  
+- Changed the spawnable mobs in Headcrumbs, added in new section from my community's VIP/admin list and Outrageous Gamers, removed the Nether from blacklist, set prefix to "Alternate Reality" to enable distinguishing headcrumbs mobs from the real deal  
+- Disabled fancy TESR in Immersive Engineering  
+- Increased the size of all tier backpacks in Iron Backpacks, increased upgrade points on diamond backpack (upgrade emphasis)  
+- Reduced the global spawn rate of Moo Fluid cows from 8 to 6  
+- Set player sleep percent to 1 in Morpheus  
+- Enabled fertilization of tier 6 crops in Mystcal Agradditions  
+- Enabled heatscar spiders to spawn in Nether via Natura  
+- Enabled RF and Tesla power types in Reborn core  
+- Increased base chance of a tumbleweed spawning from 0.4 to 0.6  
+- Lowered the warp sound in waystones to 0.2, enabled owner-only renaming
+
+Pack Note: Alpha testers please make new testing world. Any issues with conflicting textures needs to be addressed by individual mod authors.
+
+
 ### Alpha Release 0.0.1  
 ### Initial Release  
 Mods Added:  
