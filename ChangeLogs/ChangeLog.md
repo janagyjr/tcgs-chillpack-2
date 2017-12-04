@@ -1,7 +1,7 @@
 # TCG's Chill Pack Part Deux  
 ## ChangeLog Runs from Oldest (at bottom) to newest (near top)  
 
-### Beta Release 0.1.0  
+### Alpha Release 0.0.2  
 Mods Added:  
 - Recurrent Complex  
 - LootBags  
