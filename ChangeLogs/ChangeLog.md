@@ -26,6 +26,7 @@ Mods Removed:
 - Quantum Storage  
 - Fast Leaf Decay  (functionality replaced by Random Things)
 - RebornCore  
+- NetherEx (mod author won't do a full release for 1.10.2)  
 
 Mods Updated:
 - Extra Utilities  
