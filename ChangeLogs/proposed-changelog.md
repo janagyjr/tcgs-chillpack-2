@@ -23,7 +23,7 @@ Mods Added:
 - Nether Core  
 
 Mods Removed:  
-- N/A
+- Moar Tinkers (too many conflicts with PlusTIC)   
 
 Mods Updated:  
 - Chisel (0.0.14.33 > 0.1.0.38)  
@@ -51,7 +51,6 @@ Config Changes:
 - Decreased max size of Colossal Chests from 20 to 15  
 - Decreased chance of googly eyes from 20 to 15  
 - Enabled sunlight in the labyrinth dimension  
-- Disabled ruby loading in Moar Tinker's to fix conflict with PlusTIC  
 - Changed wake up message in Morpheus  
 - Enabled machines in RebornCore to be powered with RF or Tesla in addition to defaults  
 - Increased chunkloading range from 1 to 4 in SGCraft, decreased minutes open from 80 to 60  
