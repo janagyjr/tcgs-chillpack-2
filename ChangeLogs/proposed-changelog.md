@@ -1,7 +1,6 @@
 # TCG's Chill Pack Part Deux  
 ## ChangeLog Runs from Oldest (at bottom) to newest (near top)  
 
-
 ### Alpha Release 0.0.3
 Mods Added:  
 - Concrete Mod  
@@ -21,6 +20,10 @@ Mods Added:
 - OpenBlocks Elevators  
 - Useful Nullifiers  
 - Nether Core  
+- Translocators 1.8+  
+- Baconators  
+- B.A.S.E.  
+- Hermitrons ('cause who doesn't like shulker boxes?)
 
 Mods Removed:  
 - Moar Tinkers (too many conflicts with PlusTIC)   
