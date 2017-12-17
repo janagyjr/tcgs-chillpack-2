@@ -48,7 +48,7 @@ Config Changes:
 - Disabled mobs being able to spawn in elevators  
 - Increased XP Vaccuum range to 16, put a 100 tick (5 second) cooldown on travel anchors  
 - Disabled Anglesite and Benitoite oregen  
-- Decreased Galacticraft oilgen from 2.0 to 0.5, disabled tin, copper, and aluminum oregen (taken care of by other mods, please submit an issue on the tracker for recipe incompatibilities), dungeon boss health modifier increased to 3.0 from 2.0, 
+- Decreased Galacticraft oilgen from 2.0 to 0.5, disabled tin, copper, and aluminum oregen (taken care of by other mods, please submit an issue on the tracker for recipe incompatibilities), dungeon boss health modifier increased to 3.0 from 2.0  
 - Added mining dimension, Aether, and the Nether to RLD whitelist, increased spawn frequency from 10 to 15  
 - Increased bag stack size in Chisel and Bits from 512 to 1024  
 - Decreased max size of Colossal Chests from 20 to 15  
