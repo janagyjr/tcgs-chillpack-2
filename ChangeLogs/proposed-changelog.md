@@ -27,6 +27,10 @@ Mods Added:
 
 Mods Removed:  
 - Moar Tinkers (too many conflicts with PlusTIC)   
+- Dungeon DQ  
+- Better Storage Too  
+- Energy Converters  
+- Googley Eyes  
 
 Mods Updated:  
 - Chisel (0.0.14.33 > 0.1.0.38)  
@@ -34,10 +38,8 @@ Mods Updated:
 - RFTools (7.14 > 7.15)  
 - ViesCraft (5.5.0-final > 5.5.1-final)  
 - Aether Legacy (1.4.1 > 1.5)  
-- Better Storage Too (1.0.0.0 > 1.0.0.1)  
 - CodeChicken Lib 1.8+ (2.5.9.283-universal > 2.5.9.320-universal)  
 - Extra Utilities (1.6.8 > 1.7.1)  
-- 
 
 Config Changes:  
 - Disabled MFR milk bucket, derp  
@@ -52,7 +54,6 @@ Config Changes:
 - Added mining dimension, Aether, and the Nether to RLD whitelist, increased spawn frequency from 10 to 15  
 - Increased bag stack size in Chisel and Bits from 512 to 1024  
 - Decreased max size of Colossal Chests from 20 to 15  
-- Decreased chance of googly eyes from 20 to 15  
 - Enabled sunlight in the labyrinth dimension  
 - Changed wake up message in Morpheus  
 - Enabled machines in RebornCore to be powered with RF or Tesla in addition to defaults  
