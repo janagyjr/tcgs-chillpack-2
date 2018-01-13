@@ -72,3 +72,4 @@ Config Changes:
 - Halved base storage on all Storage Drawers  
 - Enabled Nether slime islands in Tinker's Construct  
 - Disabled infinity booster card recipe in Wireless Crafting Terminal  
+- Adjusted cloud Cloud_Formation_MinDistBetweenSpawned from 350 to 250, set overcastMode to true, lowered Lightning_DistanceToPlayerForEffects from 256 to 128,  
