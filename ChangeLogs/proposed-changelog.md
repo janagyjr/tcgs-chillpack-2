@@ -29,10 +29,11 @@ Mods Removed:
 - Energy Converters  
 - Googley Eyes  
 - BetterFPS (no perceived benefit)  
+- Waystones (no perceived benefit)  
 
 
 Mods Updated:  
-- Aether Legacy (1.4.1 > 1.5.1)  
+- Aether Legacy (1.4.1 > 1.6)  
 - Baubles (1.3.11 > 1.3.13)  
 - Brandon's Core (1.13.133-universal > 1.14.137-universal)  
 - Chisel (0.0.14.33 > 0.1.1.39)  
@@ -40,16 +41,18 @@ Mods Updated:
 - CompatLayer (0.2.9 > 0.3.0)  
 - Draconic Evolution (2.7.7.266-universal > 2.1.8.273-universal)  
 - Extra Utilities (1.6.8 > 1.7.2)  
-- ExtraPlanets (0.8.4 > 0.8.9)  
+- ExtraPlanets (0.8.4 > 0.9.0)  
 - Extreme Reactors (0.4.5.44 > 0.4.5.45)  
 - Forestry (5.2.17.388 > 5.2.17.389)  
-- JourneyMap (5.5.2 > 5.6.0b1)  
 - LootTweaker (0.0.6.5 > 0.0.6.6)  
 - McJtyLib (2.5.0 > 2.5.1)  
 - Railcraft (10.2.0 > 10.3.1)  
 - RFTools (7.14 > 7.16)  
 - ViesCraft (5.5.0-final > 5.5.1-final)  
 - Wireless Crafting Terminal (2.1.39 > 2.1.41)  
+
+Mods Downgraded:
+- N/A  
 
 Config Changes:  
 - Disabled MFR milk bucket, disabled filling buckets from tanks when inventory is Empty  
