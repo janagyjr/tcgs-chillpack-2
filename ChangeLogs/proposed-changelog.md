@@ -30,6 +30,7 @@ Mods Removed:
 - Googley Eyes  
 - BetterFPS (no perceived benefit)  
 - Waystones (no perceived benefit)  
+- Removing Railcraft until issues with it can be resolved
 
 
 Mods Updated:  
