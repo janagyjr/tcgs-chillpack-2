@@ -2,11 +2,17 @@
 ## ChangeLog
 
 ### Alpha Release 0.1.0
+Important Note:  
+- This modpack is currently unplayable, if anyone could please help me track down the issues, that would be much appreciated.  
+
 Mods Added:  
 -  N/A  
 
 Mods Removed:  
 - Weather, Storms & Tornados  
+- CoroUtil  
+- LootBags  
+- LootTweaker  
 
 Mods Updated:  
 - Aether Legacy (1.4.1 > 1.10.2-v1.6)  
@@ -21,9 +27,10 @@ Mods Updated:
 - Draconic Evolution (1.10.2-2.1.7.266 > 1.10.2-2.1.8.273)  
 - Extra Utilities 2 (1.10.2-1.6.8 > 1.10.2-1.9.8)  
 - ExtraPlanets (0.8.4 > 1.10.2-1.1.7)  
-- Extreme  Reactors (1.10.2-0.4.5.44 > 1.10.2-0.4.5.49)  
+- Extreme Reactors (1.10.2-0.4.5.44 > 1.10.2-0.4.5.49)  
+- Forestry (1.10.2-5.2.17.388 > 1.10.2-5.2.17.391)
 - Iron Backpacks (1.10.2-2.2.36 > 1.10.2-2.2.33)  
-- LootTweaker (1.10.2-0.0.6.5 > 1.10.2-0.0.6.6)  
+- JEI (1.10.2-3.14.7.420 - 1.10.2-3.14.8.422)
 - McJtyLib (1.1x-2.5.0 > 1.1x-2.5.3)  
 - Mystical Agriculture (1.10.2-1.5.9 > 1.10.2-1.5.10)  
 - p455w0rdslib (1.10.2-1.0.30 > 1.10.2-1.0.35)  
@@ -35,6 +42,9 @@ Mods Updated:
 - ViesCraft (1.10.x-5.5.0-final > 1.10.x-5.5.1-final)  
 - Wireless Crafting Terminal (1.10.2-2.1.39 > 1.10.2-2.1.49)  
 - ZeroCore (1.10.2-0.1.1.1 > 1.10.2-0.1.2.2)  
+
+Configuration Updates:  
+- N/A  
 
 ### Alpha Release 0.0.3
 Mods Added:  
