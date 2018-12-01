@@ -1,5 +1,40 @@
 # TCG's Chill Pack Part Deux  
-## ChangeLog Runs from Oldest (at bottom) to newest (near top)  
+## ChangeLog
+
+### Alpha Release 0.1.0
+Mods Added:  
+-  N/A  
+
+Mods Removed:  
+- Weather, Storms & Tornados  
+
+Mods Updated:  
+- Aether Legacy (1.4.1 > 1.10.2-v1.6)  
+- Baubles (1.10.2-1.3.11 > 1.10.2-1.3.13)  
+- Better Storage Too (1.0.0.0 - 1.10.2-1.0.0.2)  
+- Brandon's Core (1.10.2-2.1.13.133-universal - 1.10.20-2.1.13.137)  
+- Chisel (1.10.2-0.0.14.33 > 1.10.2-0.2.1.147)  
+- Chisel & Bits (12.16 > 12.18)  
+- CodeChicken Lib (1.10.2-2.5.9.283-universal > 1.10.2-2.5.9.320)  
+- CompatLayer (1.10.2-0.2.9 > 1.10.2.-0.3.1)  
+- ConnectedTexturesMod (1.10.2-0.2.3.26 > 1.10.2-0.2.3.35)  
+- Draconic Evolution (1.10.2-2.1.7.266 > 1.10.2-2.1.8.273)  
+- Extra Utilities 2 (1.10.2-1.6.8 > 1.10.2-1.9.8)  
+- ExtraPlanets (0.8.4 > 1.10.2-1.1.7)  
+- Extreme  Reactors (1.10.2-0.4.5.44 > 1.10.2-0.4.5.49)  
+- Iron Backpacks (1.10.2-2.2.36 > 1.10.2-2.2.33)  
+- LootTweaker (1.10.2-0.0.6.5 > 1.10.2-0.0.6.6)  
+- McJtyLib (1.1x-2.5.0 > 1.1x-2.5.3)  
+- Mystical Agriculture (1.10.2-1.5.9 > 1.10.2-1.5.10)  
+- p455w0rdslib (1.10.2-1.0.30 > 1.10.2-1.0.35)  
+- PlusTIC (5.2.1.2 > 5.2.1.3)  
+- Railcraft (10.2.0 > 10.3.1)  
+- RFTools (1.1x-7.14 > 1.1x-7.16)  
+- Shadowfact's Forglin (1.6.0 > 1.8.2)  
+- VeinMiner (0.38.1 > 0.38.2)  
+- ViesCraft (1.10.x-5.5.0-final > 1.10.x-5.5.1-final)  
+- Wireless Crafting Terminal (1.10.2-2.1.39 > 1.10.2-2.1.49)  
+- ZeroCore (1.10.2-0.1.1.1 > 1.10.2-0.1.2.2)  
 
 ### Alpha Release 0.0.3
 Mods Added:  
