@@ -1,4 +1,4 @@
-Discord: ![Discord](https://img.shields.io/discord/683921449211265057)
+Discord: ![Discord](https://img.shields.io/discord/819401259790368798)
 
 # TCG's Chill Pack - Part Deux  
 
