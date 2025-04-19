@@ -1,0 +1,18 @@
+
+#Matter Manipulator behaviour
+[matter_manipulator]
+	#Base mining speed multiplier of Matter Manipulator, 1.0 by default.
+	#Range: 0.0 ~ 100.0
+	matter_manipulator_base_multiplier = 1.0
+	#Base mining speed multiplier of Matter Manipulator when is conducting AOE mining, 0.5 by default.
+	#Range: 0.0 ~ 100.0
+	matter_manipulator_aoe_base_multiplier = 0.5
+	#Mining fluid bonus multiplier of Matter Manipulator , 0.5 by default , meaning that each 200 °C adds 1 mining speed.
+	#Range: 0.0 ~ 100.0
+	matter_manipulator_fluid_bonus_multiplier = 0.5
+
+#Mekanism Interaction
+[mekanism_interaction]
+	#Enables fusion reactor exploding when throwing iron ingots into it. True by default.
+	allow_neutronite_crafting = true
+
