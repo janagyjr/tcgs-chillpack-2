@@ -6,7 +6,7 @@
 
 Important Note:
 
-- N/A
+- This is a super-early, unreleased modpack, build at your own risk
 
 Mods Added:
 
