@@ -2,7 +2,38 @@
 
 ## ChangeLog
 
-### Alpha Release
+### Alpha Release 0.0.2
+
+Important Note:
+
+- N/A
+
+Mods Added:
+
+- Easy Villagers
+- Easy Piglins
+- Trade Cycling
+- Botany Pots
+- Botany Trees
+- Botany Pots Tiers
+- Resource Chickens
+- Oreberries Replanted
+- GrowableOres - Ore Cane
+- GrowableOres Extension
+
+Mods Removed:
+
+- N/A
+
+Mods Updated:
+
+- Polymorph
+
+Configuration Updates:
+
+- N/A
+
+### Alpha Release 0.0.1
 
 Important Note:
 
