@@ -20,6 +20,9 @@ Mods Added:
 - Oreberries Replanted
 - GrowableOres - Ore Cane
 - GrowableOres Extension
+- [EMF] Entity Model Features
+- [ETF] Entity Texture Features
+-
 
 Mods Removed:
 
