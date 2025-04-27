@@ -22,7 +22,12 @@ Mods Added:
 - GrowableOres Extension
 - [EMF] Entity Model Features
 - [ETF] Entity Texture Features
--
+- Apotheosis
+- Apothic Attributes
+- Integrated Strongholds
+- Supplementaries
+- Amendments
+- Integrated Villages
 
 Mods Removed:
 
