@@ -28,6 +28,7 @@ Mods Added:
 - Supplementaries
 - Amendments
 - Integrated Villages
+- Quark
 
 Mods Removed:
 
