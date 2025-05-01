@@ -29,6 +29,7 @@ Mods Added:
 - Amendments
 - Integrated Villages
 - Quark
+- Time in a Bottle
 
 Mods Removed:
 
@@ -37,6 +38,8 @@ Mods Removed:
 Mods Updated:
 
 - Polymorph
+- EtST Lib
+- Moonlight Lib
 
 Configuration Updates:
 
