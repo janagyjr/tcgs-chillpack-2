@@ -1,0 +1,21 @@
+{
+	"displayName": "Electro Fuz Bomb",
+	"dropItem": "resourcechickens:energy_egg",
+	"dropItemNBT": "",
+	"spawnNaturally": false,
+	"spawnType": 0,
+	"spawnLight": 0,
+	"spawnBlocks": [],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.35,
+	"isFireImmune": false,
+	"conversion": 0,
+	"eggLayTime": 2000,
+	"eggColorBackground": "10592673",
+	"eggColorForeground": "16711680",
+	"hasTrait": 0,
+	"parentA": "resourcechickens:flint",
+	"parentB": "resourcechickens:redstone",
+	"enabled": true
+}

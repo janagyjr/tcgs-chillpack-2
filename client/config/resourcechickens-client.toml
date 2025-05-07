@@ -1,0 +1,16 @@
+
+[Chickens]
+	#Render Nest labels for named chickens.  Default: true
+	renderLabels = true
+	#Render item drops in the Nest.  Default: true
+	renderItems = true
+	#Animate chickens in JEI.  Default: false  WIP: lighting?
+	renderJEIAnim = false
+	#Allow chicken textures to change on special days.  Default: true
+	allowEventTextures = true
+	#Show Chicken stats as a compact tooltip.  Default: false
+	#Note: Jade will start to shrink if the tooltip is too big
+	compactTips = false
+	#Show Chicken health in Animal Net and when bashed.  Default: true
+	healthHearts = true
+

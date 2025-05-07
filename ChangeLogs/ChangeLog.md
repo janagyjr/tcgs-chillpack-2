@@ -2,6 +2,8 @@
 
 ## ChangeLog
 
+### Alpha Release 0.0.3
+
 ### Alpha Release 0.0.2
 
 Important Note:
