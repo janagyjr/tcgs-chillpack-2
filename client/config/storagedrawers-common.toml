@@ -35,11 +35,11 @@
 	#Storage upgrades multiply storage capacity by the given amount.
 	#When multiple storage upgrades are used together, their multipliers are added before being applied.
 	#Storage upgrades start at the level 2 multiplier.  The resistance upgrade uses level 1.
-	level1Mult = 2
-	level2Mult = 4
-	level3Mult = 8
-	level4Mult = 16
-	level5Mult = 32
+	level1Mult = 4
+	level2Mult = 8
+	level3Mult = 16
+	level4Mult = 32
+	level5Mult = 64
 	#Storage upgrades increase capacity of drawers.
 	enableStorageUpgrade = true
 	#Fill level upgrades add fill bars to the faces of drawers.

@@ -2,6 +2,24 @@
 
 ## ChangeLog
 
+### Alpha Release 0.0.4
+
+Mods Added:
+
+- Storage Drawers Extras
+
+Mods Removed:
+
+- N/A
+
+Mods Updated:
+
+- N/A
+
+Configuration Updates:
+
+- N/A
+
 ### Alpha Release 0.0.3
 
 Important Note:
@@ -40,6 +58,7 @@ Mods Updated:
 Configuration Updates:
 
 - Resource Chickens: allowDeathDropResource set to 100, seedChamber set to false (no more seeds needed, yay!)
+- Storage Drawers: Doubled the multipliers for the storage upgrades
 
 ### Alpha Release 0.0.2
 

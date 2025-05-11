@@ -4,6 +4,44 @@
 
 ### Alpha Release 0.0.3
 
+Important Note:
+
+- N/A
+
+Mods Added:
+
+- Configured
+- Shrink
+- Extreme Reactors
+- Extreme Sound Muffler
+- Iron Chests
+- Iron Jetpacks
+- Iron Furnaces
+- Iron Barrels
+- Sophisticated Core
+- Sophisticated Backpacks
+- Sophisticated Storage
+
+Mods Removed:
+
+- N/A
+
+Mods Updated:
+
+- Tinkers' Advanced
+- Applied Energistics 2
+- Applied Flux
+- Cyclops Core
+- Integrated Dynamics
+- Loot Integrations
+- Moonlight Lib
+- Trade Cycling
+
+Configuration Updates:
+
+- Resource Chickens: allowDeathDropResource set to 100, seedChamber set to false (no more seeds needed, yay!)
+- Storage Drawers: Doubled the multipliers for the storage upgrades
+
 ### Alpha Release 0.0.2
 
 Important Note:
