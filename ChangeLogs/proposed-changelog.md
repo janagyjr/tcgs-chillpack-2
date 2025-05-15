@@ -10,11 +10,21 @@ Mods Added:
 
 Mods Removed:
 
-- N/A
+- Iron Barrels
 
 Mods Updated:
 
-- N/A
+- Balm
+- Common Capabilities
+- EtST Lib
+- Extreme sound muffler - (Neo)Forge
+- Integrated Crafting
+- Loot Integrations: Philip's Ruins
+- Moonlight Lib
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Waystones
 
 Configuration Updates:
 
