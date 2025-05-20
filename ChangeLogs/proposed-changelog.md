@@ -7,6 +7,7 @@
 Mods Added:
 
 - Storage Drawers Extras
+- Cyclic
 
 Mods Removed:
 
@@ -25,6 +26,9 @@ Mods Updated:
 - Sophisticated Core
 - Sophisticated Storage
 - Waystones
+- Advanced Chimneys
+- Storage Drawers
+- Tinkers' Advanced
 
 Configuration Updates:
 

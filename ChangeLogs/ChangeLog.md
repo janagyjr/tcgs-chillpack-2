@@ -2,6 +2,38 @@
 
 ## ChangeLog
 
+### Alpha Release 0.0.4
+
+Mods Added:
+
+- Storage Drawers Extras
+- Cyclic
+
+Mods Removed:
+
+- Iron Barrels
+
+Mods Updated:
+
+- Balm
+- Common Capabilities
+- EtST Lib
+- Extreme sound muffler - (Neo)Forge
+- Integrated Crafting
+- Loot Integrations: Philip's Ruins
+- Moonlight Lib
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Waystones
+- Advanced Chimneys
+- Storage Drawers
+- Tinkers' Advanced
+
+Configuration Updates:
+
+- N/A
+
 ### Alpha Release 0.0.3
 
 Important Note:
