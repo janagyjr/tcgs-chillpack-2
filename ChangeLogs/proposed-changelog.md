@@ -2,7 +2,7 @@
 
 ## ChangeLog
 
-### Beta Release 0.1.0
+### Beta Pre-Release 0.1.0
 
 ### Mods Added:
 
@@ -72,16 +72,16 @@
 
 ### Alpha Release 0.0.4
 
-Mods Added:
+### Mods Added:
 
 - Storage Drawers Extras
 - Cyclic
 
-Mods Removed:
+### Mods Removed:
 
 - Iron Barrels
 
-Mods Updated:
+### Mods Updated:
 
 - Balm
 - Common Capabilities
@@ -98,17 +98,17 @@ Mods Updated:
 - Storage Drawers
 - Tinkers' Advanced
 
-Configuration Updates:
+### Configuration Updates:
 
 - N/A
 
 ### Alpha Release 0.0.3
 
-Important Note:
+### Important Note:
 
 - N/A
 
-Mods Added:
+### Mods Added:
 
 - Configured
 - Shrink
@@ -122,11 +122,11 @@ Mods Added:
 - Sophisticated Backpacks
 - Sophisticated Storage
 
-Mods Removed:
+### Mods Removed:
 
 - N/A
 
-Mods Updated:
+### Mods Updated:
 
 - Tinkers' Advanced
 - Applied Energistics 2
@@ -137,18 +137,18 @@ Mods Updated:
 - Moonlight Lib
 - Trade Cycling
 
-Configuration Updates:
+### Configuration Updates:
 
 - Resource Chickens: allowDeathDropResource set to 100, seedChamber set to false (no more seeds needed, yay!)
 - Storage Drawers: Doubled the multipliers for the storage upgrades
 
 ### Alpha Release 0.0.2
 
-Important Note:
+### Important Note:
 
 - N/A
 
-Mods Added:
+### Mods Added:
 
 - Easy Villagers
 - Easy Piglins
@@ -171,27 +171,27 @@ Mods Added:
 - Quark
 - Time in a Bottle
 
-Mods Removed:
+### Mods Removed:
 
 - N/A
 
-Mods Updated:
+### Mods Updated:
 
 - Polymorph
 - EtST Lib
 - Moonlight Lib
 
-Configuration Updates:
+### Configuration Updates:
 
 - N/A
 
 ### Alpha Release 0.0.1
 
-Important Note:
+### Important Note:
 
 - This is a super-early, unreleased modpack, build at your own risk
 
-Mods Added:
+### Mods Added:
 
 - AddonsLib
 - Advanced Chimneys
@@ -304,14 +304,14 @@ Mods Added:
 - YUNG's API (Forge/NeoForge)
 - YUNG's Better Mineshafts (Forge/NeoForge)
 
-Mods Removed:
+### Mods Removed:
 
 - N/A
 
-Mods Updated:
+### Mods Updated:
 
 - N/A
 
-Configuration Updates:
+### Configuration Updates:
 
 - Waystones: restrictRenameToOwner from false to true
