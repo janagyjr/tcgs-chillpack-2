@@ -2,6 +2,74 @@
 
 ## ChangeLog
 
+### Beta Release 0.1.0
+
+### Mods Added:
+
+- N/A
+
+### Mods Removed:
+
+- N/A
+
+### Mods Updated:
+
+- AddonsLib
+- Advanced Chimneys
+- Amendments
+- Applied Energistics 2
+- Applied Flux
+- Ars Nouveau
+- Balm
+- Botania
+- Common Capabilities
+- Corail Tombstone
+- Crafting Tweaks
+- Create
+- Create Slice & Dice
+- Cucumber Library
+- Cyclops Core
+- Double Doors
+- Draconic Evolution
+- Easy Villagers
+- EtST Lib
+- Extreme Reactors
+- ForgeEndertech
+- FTB Library (Forge)
+- FTB Ultimine (Forge)
+- GeckoLib
+- GrowableOres - Ore Cane(Forge)
+- GrowableOres Extension
+- GuideME
+- Integrated Crafting
+- Integrated Dynamics
+- Integrated Terminals
+- Integrated Tunnels
+- Integrated Villages
+- Jade
+- Just Enough Items (JEI)
+- KleeSlabs
+- Loot Integrations
+- Mantle
+- Medieval Buildings - New Structures!
+- Mekanism
+- Mekanism Generators
+- Mekanism Tools
+- Moonlight Lib
+- Philip's Ruins
+- Simple Menu
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Storage Drawers
+- Storage Drawers Extras
+- Structure Essentials[Forge/Fabric]
+- Supplementaries
+- The Lost Cities
+- Tinkers Construct
+- Tinkers' Advanced
+- Waystones
+
 ### Alpha Release 0.0.4
 
 Mods Added:
