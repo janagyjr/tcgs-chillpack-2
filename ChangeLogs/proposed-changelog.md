@@ -6,7 +6,7 @@
 
 ### Mods Added:
 
-- N/A
+- PackMenu
 
 ### Mods Removed:
 
@@ -46,6 +46,7 @@
 - Integrated Terminals
 - Integrated Tunnels
 - Integrated Villages
+- Iron Jetpacks
 - Jade
 - Just Enough Items (JEI)
 - KleeSlabs
