@@ -7,6 +7,13 @@
 ### Mods Added:
 
 - PackMenu
+- RFTools Base
+- RFTools Utility
+- RFTools Power
+- RFTools Builder
+- RFTools Storage
+- RFTools Control
+- RFTools Dimensions
 
 ### Mods Removed:
 
