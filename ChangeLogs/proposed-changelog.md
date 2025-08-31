@@ -14,6 +14,8 @@
 
 ### Mods Updated:
 
+- [EMF] Entity Model Features [Fabric & Forge]
+- [ETF] Entity Texture Features - [Fabric & Forge]
 - AddonsLib
 - Advanced Chimneys
 - Amendments
@@ -49,6 +51,7 @@
 - Iron Jetpacks
 - Jade
 - Just Enough Items (JEI)
+- Just Enough Mekanism Multiblocks
 - KleeSlabs
 - Loot Integrations
 - Mantle
@@ -70,6 +73,10 @@
 - Tinkers Construct
 - Tinkers' Advanced
 - Waystones
+
+### Configuration Changes
+
+- Pack Menu was configured to provide custom links to Github and include a custom image
 
 ### Alpha Release 0.0.4
 
