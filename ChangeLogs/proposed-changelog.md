@@ -2,7 +2,7 @@
 
 ## ChangeLog
 
-### Beta Pre-Release 0.1.0
+### Alpha Pre-Release 0.1.0
 
 ### Mods Added:
 
@@ -14,6 +14,7 @@
 - RFTools Storage
 - RFTools Control
 - RFTools Dimensions
+- Paxi
 
 ### Mods Removed:
 
@@ -84,6 +85,7 @@
 ### Configuration Changes
 
 - Pack Menu was configured to provide custom links to Github and include a custom image
+- Datapack added to add BotanyPot support and fix issues with cane convertor for Growable Ores reeds
 
 ### Alpha Release 0.0.4
 
