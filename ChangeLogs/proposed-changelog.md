@@ -33,6 +33,7 @@
 - Balm
 - Botania
 - Common Capabilities
+- Cooking for Blockheads
 - Corail Tombstone
 - Crafting Tweaks
 - Create
@@ -44,6 +45,7 @@
 - Easy Villagers
 - EtST Lib
 - Extreme Reactors
+- Farming for Blockheads
 - ForgeEndertech
 - FTB Library (Forge)
 - FTB Ultimine (Forge)
