@@ -118,6 +118,17 @@
 		# Each entry should be a namespace or fully namespaced item, e.g. minecraft:cobblestone
 		# Any items on the deny list are prevented from being stored in drawers
 		storeDenyList = ["storagedrawers:creative_vending_upgrade"]
+		# 
+		# What a drawer should do with its items when broken.  Acceptable values are:
+		# KEEP: Drawer retains all items in the dropped item, like shulker boxes.  This is the default behavior.
+		# DROP: Drawer drops items into the world, up to the dropStackLimit value.  Stored items over that limit are voided.
+		# VOID: Drawer voids all items when dropped.
+		#Allowed Values: KEEP, DROP, VOID
+		dropMode = "KEEP"
+		# 
+		# If dropMode is set to DROP, this is the maximum number of stacks that can be spilled into the world
+		# from the entire block.  By default, this is set to the amount a vanilla chest could drop.
+		dropStackLimit = 32
 
 # Configuration around the controller and drawer networks.
 [Controller]
@@ -135,31 +146,31 @@
 
 		[Upgrades.StorageTiers.Obsidian]
 			enableUpgrade = true
-			storageMultiplier = 2
+			storageMultiplier = 4
 
 		[Upgrades.StorageTiers.Copper]
 			enableUpgrade = true
-			storageMultiplier = 4
+			storageMultiplier = 8
 
 		[Upgrades.StorageTiers.Iron]
 			enableUpgrade = true
-			storageMultiplier = 8
+			storageMultiplier = 16
 
 		[Upgrades.StorageTiers.Gold]
 			enableUpgrade = true
-			storageMultiplier = 16
+			storageMultiplier = 32
 
 		[Upgrades.StorageTiers.Emerald]
 			enableUpgrade = true
-			storageMultiplier = 64
+			storageMultiplier = 128
 
 		[Upgrades.StorageTiers.Diamond]
 			enableUpgrade = true
-			storageMultiplier = 256
+			storageMultiplier = 512
 
 		[Upgrades.StorageTiers.Netherite]
 			enableUpgrade = true
-			storageMultiplier = 2048
+			storageMultiplier = 4096
 
 	# Allows same-item slots to balance out their amounts when items are added or removed from a slot.
 	# Works across networks when acting through a controller.

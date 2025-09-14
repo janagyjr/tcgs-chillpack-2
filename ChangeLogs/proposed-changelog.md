@@ -2,7 +2,7 @@
 
 ## ChangeLog
 
-### Alpha Pre-Release 0.1.0
+### Alpha Release 0.1.0
 
 ### Mods Added:
 
@@ -15,10 +15,14 @@
 - RFTools Control
 - RFTools Dimensions
 - Paxi
+- Building Gadgets
+- Chipped
+- Chisel Chipped Integration
 
 ### Mods Removed:
 
-- N/A
+- Apotheosis
+- Apothic Attributes
 
 ### Mods Updated:
 
@@ -88,6 +92,7 @@
 
 - Pack Menu was configured to provide custom links to Github and include a custom image
 - Datapack added to add BotanyPot support and fix issues with cane convertor for Growable Ores reeds
+- Storage Drawers upgrade modifiers were updated to enable larger amounts of storage
 
 ### Alpha Release 0.0.4
 
