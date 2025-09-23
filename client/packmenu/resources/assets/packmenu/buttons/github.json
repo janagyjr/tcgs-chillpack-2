@@ -1,0 +1,19 @@
+{
+	"x": 0,
+	"y": 0,
+	"width": 150,
+	"height": 20,
+	"texture": "packmenu:textures/gui/github.png",
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 20,
+	"texWidth": 150,
+	"texHeight": 40,
+	"widgets": false,
+	"langKey": "packmenu.github",
+	"action": "OPEN_URL",
+	"data": "https://github.com/janagyjr/tcgs-chillpack-2",
+	"anchor": "TOP_LEFT",
+	"textXOffset": 5
+}

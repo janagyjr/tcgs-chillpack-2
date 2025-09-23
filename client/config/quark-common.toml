@@ -1552,7 +1552,7 @@
 					"Is Blacklist" = false
 
 [client]
-	"Auto Walk Keybind" = true
+	"Auto Walk Keybind" = false
 	"Back Button Keybind" = true
 	"Buckets Show Inhabitants" = true
 	Camera = true

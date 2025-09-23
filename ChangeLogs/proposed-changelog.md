@@ -32,7 +32,9 @@
 - Advanced Chimneys
 - Amendments
 - Applied Energistics 2
+- Applied Energistics 2 Wireless Terminals
 - Applied Flux
+- Applied Botanics Addon
 - Ars Nouveau
 - Balm
 - Botania
@@ -74,6 +76,7 @@
 - Mekanism Generators
 - Mekanism Tools
 - Moonlight Lib
+- More Mekanism Processing
 - Philip's Ruins
 - Simple Menu
 - Sophisticated Backpacks
