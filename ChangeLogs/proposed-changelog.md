@@ -1,6 +1,44 @@
 # TCG's Chill Pack Part Deux
 
 ## ChangeLog
+### Alpha Release 0.1.1
+### Mods Added
+- N/A
+### Mods Removed
+- N/A
+### Mods Updated
+- Advanced Chimneys 
+- Applied Energistics 2
+- Applied Energistics 2 Wireless Terminals
+- Applied Flux
+- Balm
+- Botany Trees
+- Collective
+- Common Capabilities
+- Create
+- Create Slice & Dice
+- Cyclops Core
+- Double Doors
+- EtST Lib
+- Explorify - Dungeons & Structures
+- Farming for Blockheads
+- GrowableOres - Ore Can(Forge)
+- GuideME
+- Integrated Crafting
+- Integrated Dynamics
+- Integrated Terminals
+- Integrated Tunnels
+- Just Enough Items (JEI)
+- Just Enough Mekanism Multiblocks
+- Moonlight Lib
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Supplementaries
+- Tinkers' Advanced
+
+### Configuration Changes
+- Changed the Guilded Link to a Discord Link
 
 ### Alpha Release 0.1.0
 

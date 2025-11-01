@@ -3,7 +3,7 @@
 	"y": 0,
 	"width": 150,
 	"height": 20,
-	"texture": "packmenu:textures/gui/guilded.png",
+	"texture": "packmenu:textures/gui/discord.png",
 	"u": 0,
 	"v": 0,
 	"hoverU": 0,
@@ -13,7 +13,7 @@
 	"widgets": false,
 	"langKey": "packmenu.guilded",
 	"action": "OPEN_URL",
-	"data": "https://www.guilded.gg/i/kdxa83Kk",
+	"data": "https://discord.gg/xEdaE8Y8M6",
 	"anchor": "TOP_RIGHT",
 	"textXOffset": 5
 }
