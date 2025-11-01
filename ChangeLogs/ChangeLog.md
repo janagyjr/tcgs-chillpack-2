@@ -1,19 +1,152 @@
 # TCG's Chill Pack Part Deux
 
 ## ChangeLog
+### Alpha Release 0.1.1
+### Mods Added
+- N/A
+### Mods Removed
+- N/A
+### Mods Updated
+- Advanced Chimneys 
+- Applied Energistics 2
+- Applied Energistics 2 Wireless Terminals
+- Applied Flux
+- Balm
+- Botany Trees
+- Collective
+- Common Capabilities
+- Create
+- Create Slice & Dice
+- Cyclops Core
+- Double Doors
+- EtST Lib
+- Explorify - Dungeons & Structures
+- Farming for Blockheads
+- GrowableOres - Ore Can(Forge)
+- GuideME
+- Integrated Crafting
+- Integrated Dynamics
+- Integrated Terminals
+- Integrated Tunnels
+- Just Enough Items (JEI)
+- Just Enough Mekanism Multiblocks
+- Moonlight Lib
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Supplementaries
+- Tinkers' Advanced
+
+### Configuration Changes
+- Changed the Guilded Link to a Discord Link
+
+### Alpha Release 0.1.0
+
+### Mods Added:
+
+- PackMenu
+- RFTools Base
+- RFTools Utility
+- RFTools Power
+- RFTools Builder
+- RFTools Storage
+- RFTools Control
+- RFTools Dimensions
+- Paxi
+- Building Gadgets
+- Chipped
+- Chisel Chipped Integration
+
+### Mods Removed:
+
+- Apotheosis
+- Apothic Attributes
+
+### Mods Updated:
+
+- [EMF] Entity Model Features [Fabric & Forge]
+- [ETF] Entity Texture Features - [Fabric & Forge]
+- AddonsLib
+- Advanced Chimneys
+- Amendments
+- Applied Energistics 2
+- Applied Energistics 2 Wireless Terminals
+- Applied Flux
+- Applied Botanics Addon
+- Ars Nouveau
+- Balm
+- Botania
+- Common Capabilities
+- Cooking for Blockheads
+- Corail Tombstone
+- Crafting Tweaks
+- Create
+- Create Slice & Dice
+- Cucumber Library
+- Cyclops Core
+- Double Doors
+- Draconic Evolution
+- Easy Villagers
+- EtST Lib
+- Extreme Reactors
+- Farming for Blockheads
+- ForgeEndertech
+- FTB Library (Forge)
+- FTB Ultimine (Forge)
+- GeckoLib
+- GrowableOres - Ore Cane(Forge)
+- GrowableOres Extension
+- GuideME
+- Integrated Crafting
+- Integrated Dynamics
+- Integrated Terminals
+- Integrated Tunnels
+- Integrated Villages
+- Iron Jetpacks
+- Jade
+- Just Enough Items (JEI)
+- Just Enough Mekanism Multiblocks
+- KleeSlabs
+- Loot Integrations
+- Mantle
+- Medieval Buildings - New Structures!
+- Mekanism
+- Mekanism Generators
+- Mekanism Tools
+- Moonlight Lib
+- More Mekanism Processing
+- Philip's Ruins
+- Simple Menu
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Storage Drawers
+- Storage Drawers Extras
+- Structure Essentials[Forge/Fabric]
+- Supplementaries
+- The Lost Cities
+- Tinkers Construct
+- Tinkers' Advanced
+- Waystones
+
+### Configuration Changes
+
+- Pack Menu was configured to provide custom links to Github and include a custom image
+- Datapack added to add BotanyPot support and fix issues with cane convertor for Growable Ores reeds
+- Storage Drawers upgrade modifiers were updated to enable larger amounts of storage
 
 ### Alpha Release 0.0.4
 
-Mods Added:
+### Mods Added:
 
 - Storage Drawers Extras
 - Cyclic
 
-Mods Removed:
+### Mods Removed:
 
 - Iron Barrels
 
-Mods Updated:
+### Mods Updated:
 
 - Balm
 - Common Capabilities
@@ -30,17 +163,17 @@ Mods Updated:
 - Storage Drawers
 - Tinkers' Advanced
 
-Configuration Updates:
+### Configuration Updates:
 
 - N/A
 
 ### Alpha Release 0.0.3
 
-Important Note:
+### Important Note:
 
 - N/A
 
-Mods Added:
+### Mods Added:
 
 - Configured
 - Shrink
@@ -54,11 +187,11 @@ Mods Added:
 - Sophisticated Backpacks
 - Sophisticated Storage
 
-Mods Removed:
+### Mods Removed:
 
 - N/A
 
-Mods Updated:
+### Mods Updated:
 
 - Tinkers' Advanced
 - Applied Energistics 2
@@ -69,18 +202,18 @@ Mods Updated:
 - Moonlight Lib
 - Trade Cycling
 
-Configuration Updates:
+### Configuration Updates:
 
 - Resource Chickens: allowDeathDropResource set to 100, seedChamber set to false (no more seeds needed, yay!)
 - Storage Drawers: Doubled the multipliers for the storage upgrades
 
 ### Alpha Release 0.0.2
 
-Important Note:
+### Important Note:
 
 - N/A
 
-Mods Added:
+### Mods Added:
 
 - Easy Villagers
 - Easy Piglins
@@ -103,27 +236,27 @@ Mods Added:
 - Quark
 - Time in a Bottle
 
-Mods Removed:
+### Mods Removed:
 
 - N/A
 
-Mods Updated:
+### Mods Updated:
 
 - Polymorph
 - EtST Lib
 - Moonlight Lib
 
-Configuration Updates:
+### Configuration Updates:
 
 - N/A
 
 ### Alpha Release 0.0.1
 
-Important Note:
+### Important Note:
 
 - This is a super-early, unreleased modpack, build at your own risk
 
-Mods Added:
+### Mods Added:
 
 - AddonsLib
 - Advanced Chimneys
@@ -236,14 +369,14 @@ Mods Added:
 - YUNG's API (Forge/NeoForge)
 - YUNG's Better Mineshafts (Forge/NeoForge)
 
-Mods Removed:
+### Mods Removed:
 
 - N/A
 
-Mods Updated:
+### Mods Updated:
 
 - N/A
 
-Configuration Updates:
+### Configuration Updates:
 
 - Waystones: restrictRenameToOwner from false to true
