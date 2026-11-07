@@ -1,13 +1,113 @@
 # TCG's Chill Pack Part Deux
 
 ## ChangeLog
-### Alpha Release 0.1.1
+
+### Beta Release 0.2.0
+
 ### Mods Added
+
 - N/A
+
 ### Mods Removed
+
 - N/A
+
 ### Mods Updated
-- Advanced Chimneys 
+
+- [EMF] Entity Model Features [Fabric & Forge]
+- [ETF] Entity Texture Features - [Fabric & Forge]
+- AddonsLib
+- Advanced Chimneys
+- Amendments
+- Applied Energistics 2
+- Balm
+- Botania
+- Chef's Delight [Forge] - Farmer's Delight Villagers
+- CodeChicken Lib 1.8+
+- Collective
+- Corail TGombstone
+- Crafting Tweaks
+- Cupboard
+- Cyclic
+- Cyclops Core
+- Double Doors
+- EtST Lib
+- Explorify - Dungeons & Structures
+- Farmer's Delight
+- FLIB
+- ForgeEndertech
+- FTB Library (NeoForge)
+- FTB Ultimate (NeoForge)
+- GeckoLib
+- GrowableOres - Ore Cane (Forge)
+- GrowableOres Extension
+- GuideME
+- Integrated API
+- Integrated Crafting
+- Integrated Dynamics
+- Integrated Terminals
+- Integrated Tunnels
+- Integrated Villages
+- Iron Furnaces
+- Jade
+- JourneyMap
+- Just Enough Items (JEI)
+- Just Enough Mekanism Multiblocks
+- KleeSlabs
+- Loot Integrations: Philip's Ruins
+- Macaw's Biomes O' Plenty
+- Mantle
+- McJtyLib
+- Moonlight Lib
+- Nature's Compass
+- No Chat Reports
+- Polymorph
+- Realistic Bees
+- RFTools Base
+- RFTools Builder
+- RFTools Control
+- RFTools Dimensions
+- RFTools Power
+- RFTools Storage
+- RFTools Utility
+- Simple Menu
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Storage Drawers
+- Structure Essentials
+- SuperMartijn642's Core Lib
+- Supplementaries
+- The Lost Cities
+- Time in a Bottle
+- Tinkers Construct
+- Trash Cans
+- Waystones
+
+### Resource Pack Updates
+
+- Blinking Ender Eyes
+- Fresh Animations
+- Vanilla Experience+
+- Wisp's Better Lanterns
+
+### Configuration Changes
+
+- Menu issues fixed
+
+### Alpha Release 0.1.1
+
+### Mods Added
+
+- N/A
+
+### Mods Removed
+
+- N/A
+
+### Mods Updated
+
+- Advanced Chimneys
 - Applied Energistics 2
 - Applied Energistics 2 Wireless Terminals
 - Applied Flux
@@ -38,6 +138,7 @@
 - Tinkers' Advanced
 
 ### Configuration Changes
+
 - Changed the Guilded Link to a Discord Link
 
 ### Alpha Release 0.1.0
