@@ -1,0 +1,442 @@
+
+#***注意！
+#***Notice
+#这些配置并不会同步修改语言文件中的描述，当你修改了某个工具/工具属性的性质后如果想要更改描述则需要手动覆盖语言文件！
+#This configure won't affect language display. When a certain modifier or tool is configured, please manually replace the description of the relating language contents.
+#Worldgen
+#世界生成
+[worldgen]
+	#Allows Bismuthinite generation, true by default.
+	#允许辉铋矿生成，默认是。
+	allow_bismuthinite = true
+	#Allows Stibnite generation, true by default.
+	#允许辉锑矿生成，默认是。
+	allow_stibnite = true
+	#Allows Unstable Stibnite generation when mining Stibnite, true by default.
+	#允许挖掘辉锑矿时使周围的辉锑矿在稳定和不稳定之间切换，默认是。
+	allow_stibnite_unstable = true
+	#Allows Iridium generation, true by default.
+	#允许贫铱矿生成，默认是。
+	allow_iridium = true
+
+#Modifiers behaviour
+#词条性质
+[modifier_behaviour]
+	#Flux Infuse
+	#通量注入
+	#通量注入抵消耐久消耗需要的能量，默认250FE
+	#FE required for each durability loss, 250FE by default
+	#Range: > 0
+	FluxInfuseConsumption = 250
+	#Flux Slash
+	#通量赋能-近战
+	#通量斩击的基础消耗（通量伤害消耗采用此值，剑气消耗为此值的2倍），默认250FE
+	#Basic consumption for Flux Slash, 250FE by default.
+	#Range: > 0
+	FluxSlashBasicConsumption = 250
+	#通量斩击的伤害增幅，默认8
+	#Additional Flux damage for Flux Slash, 8 by default.
+	#Range: 0.1 ~ 3.4028234663852886E38
+	FluxSlashExtraDamage = 8.0
+	#通量斩击的剑气基础伤害，默认8
+	#Base damage for the slash from Flux Slash, 8 by default.
+	#Range: 0.1 ~ 3.4028234663852886E38
+	FluxSlashEmpoweredSlashBaseDamage = 8.0
+	#通量斩击的剑气受锋利词条的伤害加成，默认1每级
+	#Sharpness modifier bonus damage for Slash from Flux Slash, 1 by default.
+	#Range: 0.1 ~ 3.4028234663852886E38
+	FluxSlashEmpoweredSlashBoostBySharpness = 1.0
+	#通量斩击的剑气继承自工具伤害的伤害比例，默认0.75x
+	#Damage bonus from tool's attack damage, 0.75x by default.
+	#Range: 0.01 ~ 3.4028234663852886E38
+	flux_slash_damage_from_attack_damage = 0.75
+	#通量斩击的挖掘加速（注能模式下为此值2倍），默认100%
+	#Mining boost for Flux Slash, 100% by default.
+	#Range: 0.01 ~ 3.4028234663852886E38
+	FluxSlashDigSpeedBonus = 1.0
+	#Flux Arrow
+	#通量赋能-远程
+	#通量箭矢的基础消耗（箭矢增伤消耗采用此值，产生箭矢消耗为此值的2倍，箭矢爆炸为此值的3倍，复制药水箭消耗为此值的4倍），默认250FE
+	#Basic consumption for Flux Arrow, 250FE by default.
+	#Range: > 0
+	FluxArrowConsumption = 250
+	#通量箭矢的爆炸伤害，默认8
+	#Arrow explosion damage for Flux Arrow, 8 by default.
+	#Range: 0.1 ~ 3.4028234663852886E38
+	FluxArrowExplosionDamage = 8.0
+	#通量箭矢爆炸受到箭矢伤害的增幅，默认0.5x
+	#Additional damage for the arrow explosion boosted by arrow damage from Flux Arrow, 0.5x by default.
+	#Range: 0.01 ~ 3.4028234663852886E38
+	FluxArrowExplosionDamageFromTool = 0.5
+	#Flux Armor
+	#通量赋能-护甲
+	#通量护甲的基础消耗（减伤消耗采用此值，闪避消耗为此值的10倍），默认2000FE
+	#Basic consumption for Flux Armor, 2000FE by default.
+	#Range: > 0
+	FluxArmorBasicConsumption = 2000
+	#通量护甲的每级独立保护等级，默认4（注：匠魂每级保护增加4%伤害减免，改保护等级与其它保护类属性独立）
+	#Damage Reduction for Flux Armor, 4 by default.
+	#Range: 1.0 ~ 25.0
+	FluxArmorMaxResistanceLevel = 4.0
+	#通量护甲的闪避率，默认0.1
+	#Dodge rate for Flux Armor, 0.1 by default.
+	#Range: 0.01 ~ 1.0
+	FluxArmorDodgeRate = 0.1
+	#Shaping
+	#塑性
+	#最大加槽，默认3。
+	#Max upgrade slot bonus for Shaping modifier, 3 by default.
+	#Range: > 1
+	shaping_max_slot = 2
+	#How many durability loss is needed for Shaping modifier to gain 1 slot, 2500 by default.
+	#磨损多少耐久才加1升级槽，默认2500。
+	#Range: > 1
+	shaping_damages_each_slot = 2500
+	#Proto Refining
+	#原体精炼
+	#每级最大时运增益，默认10。
+	#Bonus enchantment level each trait level for Proto Refining, 3 by default.
+	#Range: > 0
+	proto_refining_bonus = 10
+	#挖多少次增加1级时运，默认5。
+	#How many times needed for Proto Refining to gain bonus, 5 by default.
+	#Range: > 1
+	proto_refining_requirement = 5
+	#Radiation Burning and Radioactive Armor
+	#镭光合金相关
+	#辐射灼伤最大增益，默认1。
+	#Max bonus for Radiation Burning, 1 by default.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	RadiationBurningMaxDamageBoostMul = 1.0
+	#放射性护甲最大增益，默认0.8。
+	#Max bonus for Radioactive Armor, 0.8 by default.
+	#Range: 0.0 ~ 1.0
+	RadioactiveArmorMaxDamageReduction = 0.8
+	#辐射施加，默认1.0Sv。
+	#Radiation amount for Radiation Burning and Radioactive Armor each trait level, 1.0 Sv by default.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	IrradiumRadiationInflict = 1.0
+	#每Sv辐射造成的增幅，默认0.05。
+	#Bonus for Radiation Burning and Radioactive Armor each Sv, 0.05 by default.
+	#Range: 0.0 ~ 1.0
+	IrradiumBonusPointPerSv = 0.05
+	#Fragile
+	#脆性
+	#Chance for extra durability draw for Fragile Modifier, 0.1 by default.
+	#脆性额外消耗耐久的概率，默认0.1。
+	#Range: 0.0 ~ 1.0
+	fragile_chance = 0.1
+	#Extra durability cost for Fragile, 1 by default.
+	#额外消耗的耐久，默认1。
+	#Range: > 0
+	fragile_cost = 1
+	#Reactive Explosive Armor
+	#允许爆炸反应装甲免疫火焰与爆炸伤害，默认是。
+	#Allows Reactive Explosive Armor Modifier to block explosion and fire damage, true by default.
+	reactive_explosive_armor_immunity = true
+	#爆炸反应装甲的伤害减免，默认0.25（25%）。
+	#Damage Reduction for Reactive Explosive Armor, 0.25 by default.
+	#Range: 0.0 ~ 1.0
+	reactive_explosive_armor_reduction = 0.25
+	#Nutritive Slime
+	#营养黏液
+	#每点饱食度需要的黏液覆层消耗量，默认20。
+	#Overslime consumption for each food level, 20 by default.
+	#Range: > 0
+	nutritive_slime_cost = 20
+	#每级一次性加的饱食度，默认1。
+	#Food level to add each trait level, 1 by default.
+	#Range: > 0
+	nutritive_slime_recover = 1
+	#Return to Slime
+	#万物归于黏液
+	#恢复黏液覆层的概率，默认20%
+	#Overslime recover chance for Return to Slime each trait level, 20% by default.
+	#Range: 0.0 ~ 1.0
+	return_to_slime_chance = 0.2
+	#Annihilation
+	#湮灭
+	#湮灭词条造成的爆炸伤害倍率，默认5倍。
+	#Explosion damage multiplier for Annihilation Modifier, 5 by default.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	annihilation_attack_multiplier = 5.0
+	#湮灭词条对自己造成的爆炸伤害倍率，默认2.5倍
+	#Explosion damage multiplier that deals to attacker, 2.5 by default.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	annihilation_attack_self_multiplier = 2.5
+	#Disintegrate
+	#解离
+	#挖掘每个方块带来的加成（单位为%），默认20%。注：耐久惩罚是加成的一半。
+	#Bonus each block mined (%), 20(%) by default
+	#Range: > 0
+	disintegrate_each_bonus = 20
+	#最大加成（单位为%），默认2000%。
+	#Max bonus, 2000% by default.
+	#Range: > 0
+	disintegrate_max_bonus = 2000
+	#停止挖掘多久后清除加成，默认5秒。
+	#Clear bonus after ticks of stopping, 5s by default.
+	#Range: > 0
+	disintegrate_each_decrease = 5
+	#Void Dodging
+	#虚无闪避
+	#每级闪避箭矢的概率，默认0.25。
+	#Chance for dodging arrow each level, 0.25 by default.
+	#Range: 0.0 ~ 1.0
+	void_dodging_chance = 0.25
+	#Anti-Neutronium
+	#反中子
+	#湮灭性黏液词条产生的湮灭爆炸的最大伤害倍率，默认每级 2.0x。
+	#Max damage multiplier for Anihilating Slime each level, 1.0x by default.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	AnnihilatingSlimeMaxDamageMul = 2.0
+	#湮灭性黏液词条湮灭爆炸达到1倍伤害需要消耗的黏液覆层量，默认1000。
+	#Overslime consumption rate for Anihilating Slime, 1000 by default.
+	#Range: > 0
+	AnnihilatingSlimeOverslimeConsumption = 1000
+	#湮灭性黏液词条增幅黏液覆层上限的倍率，默认10。
+	#Overslime stat multiplier for Anihilating Slime, 10 by default.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	AnnihilatingSlimeOverslimeMul = 10.0
+	#分型自组装词条每个反中子锭的充能量，默认8000。
+	#Anti Neutronium charge per ingot for Neutronium Assemble, 8000 by default.
+	#Range: 1 ~ 128000
+	NeutroniumAssemblePerIngot = 8000
+	#分型自组装词条每点反中子充能能转化多少黏液覆层，不建议设置的过高，默认10。
+	#Overslime convertion per Anti-Neutronium Ingot
+	#Range: 1 ~ 32767
+	NeutroniumAssembleOverslimePerAntiNeutronium = 10
+	#湮灭性黏液词条护甲达成减伤需要消耗的黏液覆层量，默认1000。
+	#Overslime consumption rate for Anihilating Slime Armor, 1000 by default.
+	#Range: > 0
+	AnnihilatingSlimeOverslimeConsumptionArmor = 1000
+	#将湮灭爆炸的伤害改为无视无敌的类型，默认true。
+	#Transforms damage source from annihilate explosion to bypass invulnerable source, true by default.
+	AnnihilatingSlimeBypassInvulnerable = true
+	#Heavy Material
+	#重质
+	#重质词条伤害增幅，默认0.15（+15%）。
+	#Heavy Material damage bonus, 0.15 (+15%) by default
+	#Range: 0.01 ~ 3.4028234663852886E38
+	HeavyMaterialDamagePerc = 0.15
+	#重质词条移速降低，默认0.1（-10%）。
+	#Heavy Material movement decrease, 0.1 (-10%) by default
+	#Range: 0.01 ~ 3.4028234663852886E38
+	HeavyMaterialMSpeedPerc = 0.1
+	#重质词条攻速减少，默认0.05（-5%）。
+	#Heavy Material attack speed decrease, 0.05 (-5%) by default
+	#Range: 0.01 ~ 3.4028234663852886E38
+	HeavyMaterialATKSpeedPerc = 0.05
+	#Energy Enhanced
+	#通量加固
+	#通量加固词条每级减免的耐久消耗，默认20%。
+	#Durability save percentage for Energy Enhanced, 20% by default.
+	#Range: 0.0010000000474974513 ~ 1.0
+	EnergyEnhancedEffect = 0.20000000298023224
+	#通量加固词条每级增加的能量上限，默认100000FE。
+	#Energy capacity addition per level, 100000 FE by default.
+	#Range: > 0
+	EnergyEnhancedEnergyCap = 10000
+	#通量加固词条每格挡1耐久消耗需要的能量，默认250FE。
+	#Energy Reinforced energy each durability loss, 250FE by default.
+	#Range: > 0
+	EnergyReinforcedConsumption = 250
+	#Superconduct
+	#超导
+	#超导的护甲穿透，默认每级50%。
+	#Superconduct armor pierce value, 50% by default.
+	#Range: 0.0010000000474974513 ~ 1.7014117331926443E38
+	SuperconductArmorPierce = 0.5
+	#超导的能量消耗，默认100FE。
+	#Superconduct energy consumption, 100 FE by default.
+	#Range: > 0
+	SuperconductConsumption = 100
+	#Blazing
+	#烈焰
+	#烈焰的点燃范围，默认5格。
+	#Blazing ignite range, 5 by default.
+	#Range: > 1
+	BlazingIgniteRange = 5
+	#Life Melody
+	#生命旋律
+	#生命旋律的已损生命值增伤比例，默认0.05x。
+	#Life Melody damage bonus, 0.05x by default.
+	#Range: 0.01 ~ 3.4028234663852886E38
+	LifeMelodyDamageBonus = 0.05
+	#生命旋律的最大增伤，默认无上限
+	#Life Melody damage bonus cap, no cap by default.
+	#Range: 0.01 ~ 3.4028234663852886E38
+	LifeMelodyDamageBonusCap = 3.4028234663852886E38
+	#Defense Melody
+	#防守旋律
+	#防守旋律的受击后无敌帧增量，默认每级50刻。
+	#Range: > 10
+	DefenseMelodyInvulnerableTicks = 50
+	#Oceanic Whirl
+	#海洋涡流
+	#海洋涡流词条的激流速度，默认每级2，表明一级时其强度相当于激流II。
+	#Oceanic Whirl drill attack strength, 2 by default.
+	#Range: > 1
+	OceanicWhirlDrillAttackStrength = 2
+	#海洋涡流词条的激流CD，默认10刻。
+	#Oceanic Whirl drill attack CD, 10ticks by default.
+	#Range: > 0
+	OceanicWhirlDrillAttackCD = 10
+	#海洋涡流词条的耐久消耗，默认10。
+	#Oceanic Whirl durability cost, 10 by default.
+	#Range: > 0
+	OceanicWhirlDrillAttackCost = 10
+	#Frosted Charge
+	#霜冻充能
+	#结霜值的消耗量，默认2.5%。
+	#Range: 0.0 ~ 1.0
+	FrostChargeConsumptionEachUse = 0.025
+	#结霜值每秒增量，默认10%
+	#Range: 0.001 ~ 1.0
+	FrostChargeIncreasementEachSecond = 0.1
+	#Frosted Attack
+	#结霜攻击
+	#结霜攻击造成的额外寒冷伤害，默认20%（乘算）。
+	#Range: 0.0 ~ 3.4028234663852886E38
+	FrostAttackExtraDamagePerc = 0.20000000298023224
+	#Frosted Shield
+	#结霜防御
+	#结霜防御格挡的伤害值，默认每级0.25（加算）。
+	#Range: 0.0 ~ 3.4028234663852886E38
+	FrostShieldDamageBlock = 0.25
+	#Star Gazing
+	#星语
+	#星语生效时掉落碎星的概率，默认0.2（20%）。
+	#Range: 0.01 ~ 1.0
+	StarGazingDropChance = 0.20000000298023224
+	#星语每刻生成碎星的全局最大数量，默认16。整个服务器共享此数目，到上限后全服玩家都不再能生成碎星。
+	#Range: > 1
+	StarGazingServerEntityGenerationRetriction = 16
+	#星语词条能产生的碎星类型，你也可以添加你整合包里的自定义星，但是必定是EffectStarItem。
+	StarGazingEffectItemList = ["tinkers_advanced:resistance_star", "tinkers_advanced:haste_star", "tinkers_advanced:regeneration_star", "tinkers_advanced:saturation_star", "tinkers_advanced:power_star"]
+	#Neuro Excitement
+	#刺激
+	#刺激词条增幅持续时间，默认5tick。
+	#Range: > 0
+	NeuroExcitementBonusLastingTicks = 5
+	#刺激词条暴击伤害倍率增幅，默认每级0.5（50%）。
+	#Range: 0.0 ~ 3.4028234663852886E38
+	NeuroExcitementCriticalDamageMultiplier = 0.5
+	#Ender Breathe
+	#末影之息
+	#末影之息的群伤半径，默认2.5格。
+	#Range: 1.0 ~ 16.0
+	EnderBreatheAOERadius = 2.5
+	#末影之息的伤害比例，默认每级0.25（25%）。
+	#Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	EnderBreatheAOEDamageMultiplier = 0.25
+	#Star Heal
+	#星愈
+	#星愈的免死冷却，默认90秒。
+	#Range: > 0
+	StarHealRevivalCD = 90
+	#星愈产生治疗星需要受到的最低伤害，默认10。
+	#Range: 0.0 ~ 3.4028234663852886E38
+	StarHealMinDamageRequirement = 10.0
+	#Night Slayer
+	#暗夜克星
+	#暗夜克星的最高每级最高伤害增幅，默认0.25（25%）。
+	#Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	NightSlayerMaxDamageBoostEachLevel = 0.25
+	#暗夜克星的最高每级最高保护提升，默认每级5（注：匠魂每级保护提供4%减伤，有80%固有上限。此词条的保护独立于保护类强化）。
+	#Range: 0.25 ~ 3.4028234663852886E38
+	NightSlayerMaxProtectionEachLevel = 2.5
+	#Luminous Piercer
+	#曜日穿刺
+	#曜日穿刺的最高每级最高穿甲，默认2（200%）。
+	#Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	LuminousPiercerMaxArmorPierceEachLevel = 2.0
+	#曜日穿刺的最高每级最高保护提升，默认每级2.5（注：匠魂每级保护提供4%减伤，有80%固有上限。此词条的保护独立于保护类强化）。
+	#Range: 0.25 ~ 3.4028234663852886E38
+	LuminousPiercerMaxProtectionEachLevel = 2.5
+	#Slimeful
+	#黏液富集
+	#黏液富集在主世界的群系生成的粘液球。
+	SlimefulOverworldSlimeBalls = ["minecraft:slime_ball", "tconstruct:sky_slime_ball"]
+	#黏液富集在下界的群系生成的粘液球。
+	SlimefulNetherSlimeBalls = ["minecraft:magma_cream", "tconstruct:ichor_slime_ball"]
+	#黏液富集在末地的群系生成的粘液球。
+	SlimefulTheEndSlimeBalls = ["minecraft:ender_pearl", "tconstruct:ender_slime_ball"]
+	#Aerial Protection
+	#压缩空气防护
+	#压缩空气防护的压缩空气消耗，默认20mL，会乘以伤害格挡值。
+	#Range: > 0
+	AerialProtectionConsumption = 20
+	#压缩空气防护在胸甲处对穿甲伤害的独立减免，默认0.5（50%）。
+	#Range: 0.01 ~ 1.0
+	AerialProtectionChestplateDamageReductionForSpecialSource = 0.5
+	#压缩空气防护的甲后格挡（加算），默认每级2.5。
+	#Range: 0.1 ~ 3.4028234663852886E38
+	AerialProtectionDamageBlock = 2.5
+	#压缩空气防护的最大保护，默认每级2（注：匠魂每级保护提供4%伤害减免，此词条的保护独立于匠魂的其它保护）。
+	#Range: 0.25 ~ 25.0
+	AerialProtectionMaxProtectionLevel = 2.0
+	#Semiconductor
+	#半导体
+	#半导体词条的伤害修正量，默认每级0.25（25%），越高则造成越高的暴击伤害与越低的非暴击伤害。
+	#Range: 0.01 ~ 3.4028234663852886E38
+	SemiconductorDamageModification = 0.25
+	#Photoelectric
+	#光电效应
+	#光电效应每级光照带来的产能，默认2FE/t。
+	#Range: > 0
+	PhotoElectricFEPerTickEachLightLevel = 2
+	#Capacitor Capability
+	#可容电容
+	#可容电容对容量属性（默认包括能量、流体、PnC空气）的增幅的定性乘数，默认1。
+	#Range: 0.0 ~ 3.4028234663852886E38
+	CapacitorCapabilityCapacityStatMultiplier = 1.0
+	#可容电容对效率属性（默认包括TiAcT流体效率）的增幅的定性乘数，默认0.1。
+	#Range: 0.0 ~ 3.4028234663852886E38
+	CapacitorCapabilityEfficiencyStatMultiplier = 0.1
+	#可容电容对常规属性（默认包括攻击速度、攻击伤害、拉弓速度、弹射物速度、耐久、护甲、护甲韧性）的增幅的定性乘数，默认0.1。
+	#Range: 0.0 ~ 3.4028234663852886E38
+	CapacitorCapabilityGeneralStatMultiplier = 0.1
+	#可容电容对功率属性（默认包括TiAcT范围倍率、TiAcT产出倍率）的增幅的定性乘数，默认1。
+	#Range: 0.0 ~ 3.4028234663852886E38
+	CapacitorCapabilityPowerStatMultiplier = 1.0
+	#Radiation Removal
+	#消辐
+	#消辐的衰变常数，每tick令身上的辐射水平乘以此值，默认0.99。
+	#原版的默认衰变常数为0.9995，0.99的衰变常数相当于每刻衰变20次，设置成0则会瞬间消除辐射。词条等级的增加会指数级叠加衰变速率。
+	#Range: 0.0 ~ 0.9995
+	RadiationRemovalDecaySpeed = 0.99
+
+#Generator Modules
+#能量模块类强化
+#Effects
+#状态效果行为
+[mob_effect]
+	#Damage multiplier for Tetanus, 1.2 by default.
+	#破伤风效果导致的受击伤害倍率。默认1.2。
+	#Range: 0.0 ~ 2.147483647E9
+	tetanus_damage_boost = 1.2
+	#Permanent health decrease for Proto poison, 25% by default.
+	#原毒效果的永久生命上限减少，默认25%。
+	#Range: 0.0 ~ 2.147483647E9
+	proto_poison_health_decrease = 0.25
+	#Regeneration reduction for Proto Poison each level, 20% by default
+	#原毒效果的每级生命再生减少，默认20%。
+	#Range: 0.0 ~ 2.147483647E9
+	proto_poison_regen_decrease = 0.2
+	#Damage for Plague each level, 2 by default.
+	#疫毒效果的伤害，默认2。
+	#Range: 0.0 ~ 2.147483647E9
+	plague_health_decrease = 2.0
+	#Regeneration reduction for Plague each level, 50% by default
+	#疫毒效果的每级生命再生减少，默认50%。
+	#Range: 0.0 ~ 2.147483647E9
+	plague_regen_decrease = 0.5
+
+#HiddenMaterials
+#隐藏材料
+[hidden_materials]
+	#Enables Mekanism fusion reactor exploding when throwing iron ingots into it. true by default.
+	#让你能够通过向朋友的Mek聚变反应堆丢入铁锭/块/粒/砧来增进彼此的感情，默认是。
+	allow_neutronite_crafting = true
+

@@ -2,6 +2,34 @@
 
 ## ChangeLog
 
+### Beta Release 0.2.1
+
+### Mods Added
+
+- Tinkers' Advanced-Core
+- Tinkers' Advanced-Tools
+- Tinkers' Advanced-Materials
+- Tinkers' Advanced-Utilities
+
+### Mods Removed
+
+- Tinkers' Advanced Legacy (no longer supported)
+
+### Mods Updated
+
+- Advanced Chimneys
+- Collective
+- Explorify - Dungeons & Structures
+- Moonlight Lib
+
+### Resource Pack Updates
+
+- N/A
+
+### Configuration Changes Made
+
+- N/A
+
 ### Beta Release 0.2.0
 
 ### Mods Added

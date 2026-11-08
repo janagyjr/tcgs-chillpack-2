@@ -1,0 +1,63 @@
+
+#***注意！
+#***Notice
+#这些配置并不会同步修改语言文件中的描述，当你修改了某个工具/工具属性的性质后如果想要更改描述则需要手动覆盖语言文件！
+#This configure won't affect language display. When a certain modifier or tool is configured, please manually replace the description of the relating language contents.
+#平衡性和游玩
+[Gameplay]
+	#Transfer speed for Rose Gold Faucet, 1000mB/t by default.
+	#玫瑰金浇筑口的传输速率，默认1000mB/t。
+	#Range: 1 ~ 200000000
+	rose_gold_faucet_speed = 1000
+	#Transfer speed for Hepatizon Faucet, 2000000000mB/t by default.
+	#黑色科林斯青铜浇筑口的传输速率，默认2000000000mB/t。
+	#Range: 1 ~ 2000000000
+	hepatizon_faucet_speed = 2000000000
+	#Rose Gold Casting Speed multiplier with low temp recipes,5x by default.
+	#玫瑰金铸件台处理快速配方时的速度倍率，默认5x。
+	#Range: 0.0 ~ 2.147483647E9
+	rose_gold_casting_increase = 5.0
+	#Rose Gold Casting Speed multiplier with high temp recipes,0.5x by default.
+	#玫瑰金铸件台处理慢速配方时的速度倍率，默认0.5x。
+	#Range: 0.0 ~ 2.147483647E9
+	rose_gold_casting_decrease = 0.5
+	#Recipe time separator for Rose Gold Table containers,100 ticks by default.
+	#玫瑰金铸件台的快慢速分界线，默认100刻(5秒)。
+	#Range: > 1
+	rose_gold_table_separation = 100
+	#Recipe time separator for Rose Gold Basin containers,180 ticks by default.
+	#玫瑰金铸件台的快慢速分界线，默认180刻(9秒)。
+	#Range: > 1
+	rose_gold_basin_separation = 180
+	#Hepatizon Casting speed modifier, 3x by default.
+	#黑色科林斯青铜铸件台的速度倍率，默认3x。
+	#Range: 0.0 ~ 2.147483647E9
+	hepatizon_casting_speed = 3.0
+	#Advanced Alloyer fluid capacity, 16000 mB by default.
+	#液金混熔炉的流体容量，默认16000mB。太低的容量会让部分配方无法进行！
+	#Range: > 1000
+	AdvancedAlloyerTankCapacity = 16000
+	#Advanced Alloyer alloying cycle, 4 ticks by default.
+	#液金混熔炉的合金工作周期，默认3 ticks，越低合金越快（原版合金炉为4）。
+	#Range: 2 ~ 20
+	AdvancedAlloyerWorkCycle = 3
+	#Fuel Engraver fluid capacity, 4000 by default.
+	#热射线蚀刻机的流体容量，默认1000mB。
+	#Range: > 1
+	FuelEngraverCapacity = 1000
+	#Fuel Engraver temperature requirement each modifier, 750 by default.
+	#热射线蚀刻机每蚀刻一个工具属性需要的温度，默认750℃。多个工具属性的温度相互叠加，可以用来限制最大蚀刻属性种类数。
+	#Range: > 0
+	FuelEngraverTempRequirement = 750
+	#Fuel Engraver fuel consumption each level, 100 by default.
+	#热射线蚀刻机的流体消耗，默认每级工具属性消耗100mB。
+	#Range: > 0
+	FuelEngraverFuelConsumption = 100
+	#Fuel Engraver venom consumption each level when removing engrave, 10 by default.
+	#热射线蚀刻机移除蚀刻时消耗的毒液量，默认10mB。
+	#Range: > 0
+	FuelEngraverVenomConsumption = 10
+	#Fuel Engraver display fail message on use, true by default.
+	#热射线蚀刻机在蚀刻失败时显示失败原因，默认true。
+	FuelEngraverDisplayFailure = true
+
