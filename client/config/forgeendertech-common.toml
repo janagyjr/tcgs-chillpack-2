@@ -2,9 +2,6 @@
 debug = false
 
 [SmokeContainers]
-	#Maximum length of the vent pipe for smoke or gas transmition
-	#Range: 1 ~ 64
-	maxVentPipeLength = 32
 	#Maximum distance from vent to the gas block to be sucked in
 	#Range: 1 ~ 16
 	ventReachDistance = 4
@@ -19,4 +16,13 @@ debug = false
 	#The height of this area is always 3 blocks.
 	#Range: 1 ~ 64
 	suctionHoppers = ["minecraft:hopper, 8", "brickhopper:brick_hopper, 6", "goldenhopper:golden_hopper, 12", "littlelogistics:rapid_hopper, 12"]
+	#Maximum length of the vent duct for smoke or gas transmission
+	#Range: 1 ~ 1024
+	maxVentDuctLength = 256
+
+[Painting]
+	#Whether a bucket of water is required to be in the player's inventory in order to paint
+	requiresWaterBucket = true
+	#Whether a dye is required to be in the player's inventory in order to paint
+	requiresDye = true
 

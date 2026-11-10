@@ -1,0 +1,35 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Realistic Bees -> Config",
+	"Enable Realistic Bees": {
+		"//": "Whether Realistic Bees is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"beeSizeModifier": {
+		"//": "This value determines the size of a bee. By default 0.25, which means they are 1/4th of their vanilla size. Set to 1.0 to disable the different bee size feature. min: 0.01, max: 5",
+		"value": 0.25
+	},
+	"extraBeeSpawnsPerBee": {
+		"//": "In order to make bees a little more common. Whenever a bee naturally spawns, the mod spawns an additional 'extraBeeSpawnsPerBee' bees. min: 0, max: 50",
+		"value": 9
+	},
+	"beeHiveBeeSpace": {
+		"//": "How many bees should be able to enter the hive in total. Minecraft's default is 3, but bees are a lot smaller so there should be more space. min: 0, max: 50",
+		"value": 20
+	},
+	"preventBeeSuffocationDamage": {
+		"//": "The smaller (baby) bees can sometimes do something unexpected with their AI and get suffocation damage. Preventing this damage fixes them disappearing.",
+		"value": true
+	},
+	"preventBeeCampfireDamage": {
+		"//": "Smaller bees fly closer to a campfire placed below their hive and can get burned by it. When enabled, bees take no damage from campfires.",
+		"value": false
+	},
+	"nectarDeliveriesPerHoneyLevel": {
+		"//": "How many nectar deliveries it takes on average to raise a hive's honey level by one. Minecraft's default is 1, but with more bees per hive the honey fills up a lot faster. min: 1, max: 20",
+		"value": 1
+	},
+	"hivesRepopulateFromFullHoney": {
+		"//": "When enabled, a hive that fills up with honey and still has space uses up the honey to release a new baby bee.",
+		"value": false
+	}
+}

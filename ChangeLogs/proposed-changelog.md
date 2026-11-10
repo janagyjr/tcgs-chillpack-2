@@ -2,6 +2,28 @@
 
 ## ChangeLog
 
+### Beta Release 0.2.2
+
+### Mods Added
+
+- N/A
+
+### Mods Removed
+
+- N/A
+
+### Mods Updated
+
+- N/A
+
+### Resource Pack Updates
+
+- N/A
+
+### Configuration Changes
+
+- Agricraft, weeds disabled
+
 ### Beta Release 0.2.1
 
 ### Mods Added

@@ -28,6 +28,11 @@
 			#Set page visibility
 			visible = true
 
+		#JEI 'Building [Lasers]' page configuration
+		[multiblocks.mekanism.lasers]
+			#Set page visibility
+			visible = true
+
 	[multiblocks.mekanismgenerators]
 
 		#JEI 'Building [Industrial Turbine]' page configuration
@@ -60,7 +65,19 @@
 			visible = true
 
 		#JEI 'Building [Naquadah Reactor]' page configuration
-		[multiblocks.mekanism_extras.naquadah_reacto]
+		[multiblocks.mekanism_extras.naquadah_reactor]
 			#Set page visibility
+			visible = true
+
+	[multiblocks.evolvedmekanism]
+
+		#JEI 'Building [Antimatter Protomolecular Transmutator]' page configuration
+		[multiblocks.evolvedmekanism.apt]
+			#Set page visibility
+			visible = true
+
+		#JEI 'Building [Induction Matrix]' page configuration
+		[multiblocks.evolvedmekanism.matrix]
+			#Set catalyst visibility
 			visible = true
 

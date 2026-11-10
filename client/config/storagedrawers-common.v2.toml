@@ -271,7 +271,7 @@
 	[Upgrades.Hopper]
 		enableUpgrade = true
 
-	# Collects nearby matching items by teleporting them instantly to the drawer
+	# Collects nearby matching items by teleporting them instantly to the drawer.
 	[Upgrades.Magnet]
 		# 
 		# When multiple magnet upgrades are used, their ranges are added together.
@@ -320,6 +320,96 @@
 			# Collection is idle when items have not been collected within the last idleSpeed interval.
 			idleSpeed = 20
 
+	# Drawers will try to push items into adjacent inventories.
+	[Upgrades.Push]
+
+		[Upgrades.Push.Level1]
+			enableUpgrade = true
+			# 
+			# The number of items transferred at a time.
+			# Rate will be capped at a given item's max stack size.
+			itemRate = 1
+			# 
+			# Ticks between active item transfers when this is the highest upgrade tier.
+			activeSpeed = 20
+			# 
+			# Ticks between item transfer checks when this is the highest upgrade tier.
+			# Item transfer is idle when items have not been transferred within the last idleSpeed interval.
+			idleSpeed = 20
+
+		[Upgrades.Push.Level2]
+			enableUpgrade = true
+			# 
+			# The number of items transferred at a time.
+			# Rate will be capped at a given item's max stack size.
+			itemRate = 8
+			# 
+			# Ticks between active item transfers when this is the highest upgrade tier.
+			activeSpeed = 20
+			# 
+			# Ticks between item transfer checks when this is the highest upgrade tier.
+			# Item transfer is idle when items have not been transferred within the last idleSpeed interval.
+			idleSpeed = 20
+
+		[Upgrades.Push.Level3]
+			enableUpgrade = true
+			# 
+			# The number of items transferred at a time.
+			# Rate will be capped at a given item's max stack size.
+			itemRate = 64
+			# 
+			# Ticks between active item transfers when this is the highest upgrade tier.
+			activeSpeed = 20
+			# 
+			# Ticks between item transfer checks when this is the highest upgrade tier.
+			# Item transfer is idle when items have not been transferred within the last idleSpeed interval.
+			idleSpeed = 20
+
+	# Drawers will try to pull items from adjacent inventories.
+	[Upgrades.Pull]
+
+		[Upgrades.Pull.Level1]
+			enableUpgrade = true
+			# 
+			# The number of items transferred at a time.
+			# Rate will be capped at a given item's max stack size.
+			itemRate = 1
+			# 
+			# Ticks between active item transfers when this is the highest upgrade tier.
+			activeSpeed = 20
+			# 
+			# Ticks between item transfer checks when this is the highest upgrade tier.
+			# Item transfer is idle when items have not been transferred within the last idleSpeed interval.
+			idleSpeed = 20
+
+		[Upgrades.Pull.Level2]
+			enableUpgrade = true
+			# 
+			# The number of items transferred at a time.
+			# Rate will be capped at a given item's max stack size.
+			itemRate = 8
+			# 
+			# Ticks between active item transfers when this is the highest upgrade tier.
+			activeSpeed = 20
+			# 
+			# Ticks between item transfer checks when this is the highest upgrade tier.
+			# Item transfer is idle when items have not been transferred within the last idleSpeed interval.
+			idleSpeed = 20
+
+		[Upgrades.Pull.Level3]
+			enableUpgrade = true
+			# 
+			# The number of items transferred at a time.
+			# Rate will be capped at a given item's max stack size.
+			itemRate = 64
+			# 
+			# Ticks between active item transfers when this is the highest upgrade tier.
+			activeSpeed = 20
+			# 
+			# Ticks between item transfer checks when this is the highest upgrade tier.
+			# Item transfer is idle when items have not been transferred within the last idleSpeed interval.
+			idleSpeed = 20
+
 # Configuration around tools, namely the various 'keys' that can be used on drawers.
 [Tools]
 
@@ -349,6 +439,11 @@
 
 	# Suspend keys stop external interaction, e.g. from hopper or magnet upgrades.
 	[Tools.PauseKey]
+		enable = true
+
+	# Connection keys change the input/output mode of individual drawer faces
+	# with respect to external inventories or to push/pull upgrades.
+	[Tools.ConnectionKey]
 		enable = true
 
 # Configuration around integration with third party mods.

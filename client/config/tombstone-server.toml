@@ -39,27 +39,27 @@
 	enable_enchantment_ruthless_strike = true
 	#Allows Soulbound at enchanting table [false/true|default:false]
 	soulbound_enchanting_table = true
-	#Allows Spectral Bite at enchanting table [false/true|default:false]
+	#Allows Spectral Bite at enchanting table [false/true|default:true]
 	spectral_bite_enchanting_table = true
-	#Allows Magic Siphon at enchanting table [false/true|default:false]
+	#Allows Magic Siphon at enchanting table [false/true|default:true]
 	magic_siphon_enchanting_table = true
-	#Allows Plague Bringer at enchanting table [false/true|default:false]
+	#Allows Plague Bringer at enchanting table [false/true|default:true]
 	plague_bringer_enchanting_table = true
-	#Allows Curse of Bones at enchanting table [false/true|default:false]
+	#Allows Curse of Bones at enchanting table [false/true|default:true]
 	curse_of_bones_enchanting_table = true
-	#Allows Blessing at enchanting table [false/true|default:false]
+	#Allows Blessing at enchanting table [false/true|default:true]
 	blessing_enchanting_table = true
-	#Allows Frostbite at enchanting table [false/true|default:false]
+	#Allows Frostbite at enchanting table [false/true|default:true]
 	frostbite_enchanting_table = true
-	#Allows Spectral Conjurer at enchanting table [false/true|default:false]
+	#Allows Spectral Conjurer at enchanting table [false/true|default:true]
 	spectral_conjurer_enchanting_table = true
-	#Allows Incurable Wounds at enchanting table [false/true|default:false]
+	#Allows Incurable Wounds at enchanting table [false/true|default:true]
 	incurable_wounds_enchanting_table = true
-	#Allows Decrepitude at enchanting table [false/true|default:false]
+	#Allows Decrepitude at enchanting table [false/true|default:true]
 	decrepitude_enchanting_table = true
-	#Allows Sanctified at enchanting table [false/true|default:false]
+	#Allows Sanctified at enchanting table [false/true|default:true]
 	sanctified_enchanting_table = true
-	#Allows Ruthless Strike at enchanting table [false/true|default:false]
+	#Allows Ruthless Strike at enchanting table [false/true|default:true]
 	ruthless_strike_enchanting_table = true
 
 #Allows to customize or disable the potions
@@ -96,6 +96,9 @@
 	#Chance for players to obtain an enchanted Grave's Key on death (-1 disables the Perk Jailer) [-1..100|default:0]
 	#Range: -1 ~ 100
 	chance_enchanted_grave_key = 0
+	#Maximum level for Magic Scrolls [0..255|default:4]
+	#Range: 0 ~ 255
+	level_max_magic_scrolls = 4
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]

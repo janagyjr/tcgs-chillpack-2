@@ -184,3 +184,19 @@
 		#Range: 0 ~ 5
 		processingLevel = 0
 
+	[ores.boron]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.magnesium]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.thorium]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.palladium]
+		#Range: 0 ~ 5
+		processingLevel = 5
+

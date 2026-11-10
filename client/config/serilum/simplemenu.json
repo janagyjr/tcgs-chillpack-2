@@ -1,0 +1,67 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Simple Menu -> Config",
+	"Enable Simple Menu": {
+		"//": "Whether Simple Menu is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"setCustomWindowTitle": {
+		"//": "Whether a custom window title should be set. Uses the value set in 'customWindowTitle'.",
+		"value": false
+	},
+	"customWindowTitle": {
+		"//": "The custom window title that's used when 'setCustomWindowTitle' is enabled.",
+		"value": "Custom Window Title"
+	},
+	"setCustomWindowIcon": {
+		"//": "If a custom window icon should be set. Two files are needed. Both in PNG format. One a 16 pixel square called 'icon_16x16.png', and one a 32 pixel square called 'icon_32x32.png'. Located in './config/serilum/simplemenu/icon'.",
+		"value": false
+	},
+	"replaceMainMenuLogo": {
+		"//": "If a custom main menu logo should be rendered. This will replace the 'Minecraft' text. A 'logo.png' file is needed. Located in './config/serilum/simplemenu/logo'. By default the image dimensions are 1024x256. To remove it completely, use an empty .png file.",
+		"value": false
+	},
+	"replaceMainMenuEditionLogo": {
+		"//": "If a custom main menu 'edition' logo should be rendered. This will replace the 'Java Edition' text. An 'edition.png' file is needed. Located in './config/serilum/simplemenu/logo'. By default the image dimensions are 512x64. To remove it completely, use an empty .png file.",
+		"value": false
+	},
+	"setCustomBackground": {
+		"//": "If a custom background should be rendered. A 'background.png' file is needed. Located in './config/serilum/simplemenu/background/'.",
+		"value": false
+	},
+	"hideMinecraftRealmsButton": {
+		"//": "If the Minecraft Realms button should be hidden from the main menu. Enabled by default, since modded Minecraft is incompatible with it.",
+		"value": false
+	},
+	"expandModsButton": {
+		"//": "Whether the Mods button's width should be expanded to match the singleplayer button width. Can be useful with 'hideMinecraftRealmsButton' disabled. Only applicable for Forge and NeoForge.",
+		"value": false
+	},
+	"enableServerPromoButton": {
+		"//": "Whether the Minecraft Realms button should be replaced by a serverhosting promo button.",
+		"value": false
+	},
+	"serverPromoButtonTextDefault": {
+		"//": "The default server promo button text.",
+		"value": "Need a Server?"
+	},
+	"serverPromoButtonTextOnHover": {
+		"//": "The server promo button text shown when hovering it.",
+		"value": "Use code PROMO for 25% off"
+	},
+	"serverPromoButtonClickURL": {
+		"//": "The URL that's being navigated to when clicking the server promo button.",
+		"value": "https://localhost/exampleurl"
+	},
+	"hideSplashText": {
+		"//": "Whether the splash text should be hidden on the main menu.",
+		"value": false
+	},
+	"removeExperimentalModLoaderText": {
+		"//": "Whether experimental/beta mod loader text should be removed from the main menu.",
+		"value": false
+	},
+	"removeTextBottomLeft": {
+		"//": "Whether the text in the bottom left should be removed from the main menu.",
+		"value": false
+	}
+}
