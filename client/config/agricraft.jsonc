@@ -26,9 +26,9 @@
     // Set to true to completely disable the spawning of weeds
     "disable_weeds": true,
     // Set to false to disable mature weeds killing plants
-    "mature_weeds_kill_plants": true,
+    "mature_weeds_kill_plants": false,
     // Set to false to disable the spreading of weeds
-    "weeds_spreading": true,
+    "weeds_spreading": false,
     // Set this to true to have weeds destroy the crop sticks when they are broken with weeds (to encourage rake usage).
     "weeds_destroy_crop_sticks": false,
     // Set to false if you wish to disable drops from raking weeds.
