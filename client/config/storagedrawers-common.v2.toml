@@ -27,28 +27,28 @@
 	[Drawers.Blocks]
 
 		[Drawers.Blocks.FullStorage1x1]
-			unitsPerSlot = 32
+			unitsPerSlot = 64
 
 		[Drawers.Blocks.FullStorage1x2]
-			unitsPerSlot = 16
-
-		[Drawers.Blocks.FullStorage2x2]
-			unitsPerSlot = 8
-
-		[Drawers.Blocks.FullCompacting]
 			unitsPerSlot = 32
 
-		[Drawers.Blocks.HalfStorage1x1]
+		[Drawers.Blocks.FullStorage2x2]
 			unitsPerSlot = 16
+
+		[Drawers.Blocks.FullCompacting]
+			unitsPerSlot = 64
+
+		[Drawers.Blocks.HalfStorage1x1]
+			unitsPerSlot = 32
 
 		[Drawers.Blocks.HalfStorage1x2]
-			unitsPerSlot = 8
+			unitsPerSlot = 16
 
 		[Drawers.Blocks.HalfStorage2x2]
-			unitsPerSlot = 4
+			unitsPerSlot = 8
 
 		[Drawers.Blocks.HalfCompacting]
-			unitsPerSlot = 16
+			unitsPerSlot = 32
 
 	# Configuration around the auto compacting feature
 	[Drawers.Compacting]

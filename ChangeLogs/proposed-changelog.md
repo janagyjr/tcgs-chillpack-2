@@ -10,11 +10,21 @@
 
 ### Mods Removed
 
-- N/A
+- Agricraft
+- Agricraft Create Compatiblity
 
 ### Mods Updated
 
-- N/A
+- Collective
+- Integrated API
+- McJtyLib
+- MezzConfig
+- RFTools Utility
+- Ruins (Structure Spawning System)
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Loot Integrations
 
 ### Resource Pack Updates
 
@@ -22,7 +32,7 @@
 
 ### Configuration Changes
 
-- Agricraft, weeds disabled
+- Updated Storage Drawers to have higher base storage capacity and greater controller range
 
 ### Beta Release 0.2.1
 

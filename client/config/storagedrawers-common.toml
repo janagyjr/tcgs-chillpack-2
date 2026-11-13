@@ -40,11 +40,11 @@
 	storeBlacklist = ["storagedrawers:creative_vending_upgrade"]
 
 [StorageUpgrades]
-	level1Mult = 4
-	level2Mult = 8
-	level3Mult = 16
-	level4Mult = 32
-	level5Mult = 64
+	level1Mult = 8
+	level2Mult = 16
+	level3Mult = 32
+	level4Mult = 64
+	level5Mult = 128
 	#Storage upgrades increase capacity of drawers.
 	enableStorageUpgrade = true
 	#Fill level upgrades add fill bars to the faces of drawers.
