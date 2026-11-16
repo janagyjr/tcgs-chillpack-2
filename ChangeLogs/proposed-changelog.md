@@ -28,6 +28,8 @@
 - Cyclops Core
 - Integrated Dynamics
 - Integrated Terminals
+- Cooking for Blockheads
+- Supplementaries
 
 ### Resource Pack Updates
 
