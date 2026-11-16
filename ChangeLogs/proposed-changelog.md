@@ -25,6 +25,9 @@
 - Sophisticated Core
 - Sophisticated Storage
 - Loot Integrations
+- Cyclops Core
+- Integrated Dynamics
+- Integrated Terminals
 
 ### Resource Pack Updates
 
