@@ -6,7 +6,7 @@
 
 ### Mods Added
 
-- N/A
+- Functional Storage
 
 ### Mods Removed
 
