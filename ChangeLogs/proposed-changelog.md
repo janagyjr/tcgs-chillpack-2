@@ -12,6 +12,7 @@
 
 - Agricraft
 - Agricraft Create Compatiblity
+- No Chat Reports
 
 ### Mods Updated
 
