@@ -33,6 +33,7 @@
 - Integrated Terminals
 - Cooking for Blockheads
 - Supplementaries
+- SuperMartijn642's Core Lib
 
 ### Resource Pack Updates
 
