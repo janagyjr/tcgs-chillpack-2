@@ -13,6 +13,8 @@
 - Agricraft
 - Agricraft Create Compatiblity
 - No Chat Reports
+- Storage Drawers
+- Storage Drawers Extras
 
 ### Mods Updated
 
