@@ -40,7 +40,6 @@
 
 ### Configuration Changes
 
-- Updated Storage Drawers to have higher base storage capacity and greater controller range
 - Functional Storage linking range doubled from 8 to 16
 
 ### Beta Release 0.2.1
